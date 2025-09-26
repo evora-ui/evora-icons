@@ -1,0 +1,28 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  publish-vue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org
+      - run: corepack enable
+      - run: yarn install --immutable
+      - run: node tools/generate-icons.mjs --pkg packages/vue
+      - run: yarn workspace @evora-ui/icons-vue run build
+      - run: yarn workspace @evora-ui/icons-vue run types
+      - name: Include LICENSE and NOTICE in package
+        run: |
+          cp -f LICENSE NOTICE packages/vue/
+      - run: npm publish --access public
+        working-directory: packages/vue
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

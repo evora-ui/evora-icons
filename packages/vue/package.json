@@ -1,0 +1,96 @@
+{
+  "name": "@evora-ui/icons-vue",
+  "version": "0.1.0",
+  "description": "Evora icon components for Vue 3",
+  "type": "module",
+  "sideEffects": false,
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typesVersions": {
+    "*": {
+      "icons": [
+        "dist/icons/index.d.ts"
+      ],
+      "icons/*": [
+        "dist/icons/*/index.d.ts"
+      ]
+    }
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./icons": {
+      "import": "./dist/icons/index.js",
+      "types": "./dist/icons/index.d.ts"
+    },
+    "./icons/line": {
+      "import": "./dist/icons/line/index.js",
+      "types": "./dist/icons/line/index.d.ts"
+    },
+    "./icons/filled": {
+      "import": "./dist/icons/filled/index.js",
+      "types": "./dist/icons/filled/index.d.ts"
+    },
+    "./icons/names": {
+      "import": "./dist/icons/names.js",
+      "types": "./dist/icons/names.d.ts"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "NOTICE"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prebuild": "yarn clean && yarn generate",
+    "build": "rollup -c",
+    "pretypes": "yarn generate",
+    "types": "tsc -p tsconfig.json --emitDeclarationOnly --declaration && node ../../tools/fix-icons-dts.mjs --pkg packages/vue",
+    "generate": "node ../../tools/generate-icons.mjs --pkg packages/vue",
+    "copy:legal": "cp -f ../../LICENSE ./LICENSE && cp -f ../../NOTICE ./NOTICE",
+    "prepack": "yarn copy:legal",
+    "prepublishOnly": "yarn clean && yarn generate && yarn build && yarn types && yarn lint:fix && yarn copy:legal",
+    "lint": "eslint 'src/**/*.{ts,js,vue}'",
+    "lint:fix": "eslint 'src/**/*.{ts,js,vue}' --fix"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.23.0",
+    "rollup": "^4.22.4",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "typescript": "~5.9.2",
+    "vue": "^3.5.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "vue",
+    "icons",
+    "svg",
+    "components",
+    "evora",
+    "evora-ui",
+    "vue3",
+    "vue-icons"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evora-ui/evora-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evora-ui/evora-icons/issues"
+  },
+  "homepage": "https://github.com/evora-ui/evora-icons#readme",
+  "engines": {
+    "node": ">=18"
+  }
+}

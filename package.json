@@ -1,0 +1,43 @@
+{
+  "name": "evora-icons",
+  "private": true,
+  "type": "module",
+  "packageManager": "yarn@4.9.4",
+  "workspaces": [
+    "packages/*"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evora-ui/evora-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/evora-ui/evora-icons/issues"
+  },
+  "homepage": "https://github.com/evora-ui/evora-icons#readme",
+  "devDependencies": {
+    "@changesets/cli": "^2.27.8",
+    "@typescript-eslint/eslint-plugin": "^8.38.0",
+    "@typescript-eslint/parser": "^8.38.0",
+    "eslint": "^9.32.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.3",
+    "eslint-plugin-vue": "^10.3.0",
+    "prettier": "^3.6.2",
+    "svgo": "^3.3.2",
+    "typescript": "~5.9.2",
+    "vue-eslint-parser": "^10.2.0"
+  },
+  "scripts": {
+    "generate": "yarn workspaces foreach -Av run generate",
+    "build": "yarn workspaces foreach -Av run build",
+    "types": "yarn workspaces foreach -Av run types",
+    "clean": "yarn workspaces foreach -Av run clean",
+    "lint:fix": "yarn workspaces foreach -Av run lint:fix",
+    "lint": "eslint .",
+    "prepublishOnly": "yarn generate && yarn build && yarn types && yarn lint:fix",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "yarn lint && yarn changeset publish"
+  }
+}

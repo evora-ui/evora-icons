@@ -1,0 +1,10 @@
+node_modules
+.dist
+.DS_Store
+.vscode
+.idea
+dist
+packages/vue/src/icons/
+packages/vue/NOTICE
+packages/vue/LICENSE
+.yarn
