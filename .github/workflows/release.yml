@@ -14,7 +14,11 @@ jobs:
         with:
           node-version: 20
           registry-url: https://registry.npmjs.org
-      - run: corepack enable
+      - name: Setup Yarn (Corepack)
+        run: |
+          corepack enable
+          corepack prepare yarn@4.9.4 --activate
+          yarn --version
       - run: yarn install --immutable
       - run: node tools/generate-icons.mjs --pkg packages/vue
       - run: yarn workspace @evora-ui/icons-vue run build
