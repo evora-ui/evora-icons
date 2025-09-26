@@ -1,5 +1,11 @@
 # @evora-ui/icons-vue
 
+## 0.1.2
+
+### Patch Changes
+
+- 34e658e: fixes
+
 ## 0.1.1
 
 ### Patch Changes
