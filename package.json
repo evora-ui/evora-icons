@@ -16,7 +16,6 @@
   },
   "homepage": "https://github.com/evora-ui/evora-icons#readme",
   "devDependencies": {
-    "@changesets/cli": "^2.27.8",
     "@typescript-eslint/eslint-plugin": "^8.38.0",
     "@typescript-eslint/parser": "^8.38.0",
     "eslint": "^9.32.0",
@@ -35,9 +34,6 @@
     "clean": "yarn workspaces foreach -Av run clean",
     "lint:fix": "yarn workspaces foreach -Av run lint:fix",
     "lint": "eslint .",
-    "prepublishOnly": "yarn generate && yarn build && yarn types && yarn lint:fix",
-    "changeset": "changeset",
-    "version-packages": "changeset version",
-    "release": "yarn lint && yarn changeset publish"
+    "prepublishOnly": "yarn generate && yarn build && yarn types && yarn lint:fix"
   }
 }

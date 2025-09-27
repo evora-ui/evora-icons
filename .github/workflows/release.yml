@@ -8,6 +8,7 @@ on:
 jobs:
   publish-vue:
     runs-on: ubuntu-latest
+    environment: npm-publish
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,7 +27,8 @@ jobs:
       - name: Include LICENSE and NOTICE in package
         run: |
           cp -f LICENSE NOTICE packages/vue/
-      - run: npm publish --access public
+      - run: npm publish --access public --provenance
         working-directory: packages/vue
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NPM_CONFIG_PROVENANCE: true
