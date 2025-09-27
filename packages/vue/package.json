@@ -1,6 +1,6 @@
 {
   "name": "@evora-ui/icons-vue",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Evora icon components for Vue 3",
   "type": "module",
   "sideEffects": false,
