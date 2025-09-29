@@ -1,6 +1,6 @@
 {
   "name": "@evora-ui/icons-vue",
-  "version": "0.1.5",
+  "version": "0.2.0",
   "description": "1500+ free SVG icon components for Vue 3 — line & filled variants. Tree‑shakable, typed, CSP/SSR‑friendly.",
   "type": "module",
   "sideEffects": false,
