@@ -1,0 +1,14 @@
+{
+  "app-store": {
+    "line": true,
+    "filled": false
+  },
+  "chrome": {
+    "line": true,
+    "filled": false
+  },
+  "playstore": {
+    "line": true,
+    "filled": false
+  }
+}

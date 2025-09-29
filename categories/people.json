@@ -1,0 +1,278 @@
+{
+  "baby": {
+    "line": true,
+    "filled": true
+  },
+  "eyes": {
+    "line": true,
+    "filled": true
+  },
+  "footprints": {
+    "line": true,
+    "filled": true
+  },
+  "gender-female": {
+    "line": true,
+    "filled": true
+  },
+  "gender-intersex": {
+    "line": true,
+    "filled": true
+  },
+  "gender-male": {
+    "line": true,
+    "filled": true
+  },
+  "gender-neuter": {
+    "line": true,
+    "filled": true
+  },
+  "gender-nonbinary": {
+    "line": true,
+    "filled": true
+  },
+  "gender-transgender": {
+    "line": true,
+    "filled": true
+  },
+  "hand": {
+    "line": true,
+    "filled": true
+  },
+  "hand-arrow-down": {
+    "line": true,
+    "filled": true
+  },
+  "hand-arrow-up": {
+    "line": true,
+    "filled": true
+  },
+  "hand-deposit": {
+    "line": true,
+    "filled": true
+  },
+  "hand-eye": {
+    "line": true,
+    "filled": true
+  },
+  "hand-fist": {
+    "line": true,
+    "filled": true
+  },
+  "hand-grabbing": {
+    "line": true,
+    "filled": true
+  },
+  "hand-palm": {
+    "line": true,
+    "filled": true
+  },
+  "hand-peace": {
+    "line": true,
+    "filled": true
+  },
+  "hand-pointing": {
+    "line": true,
+    "filled": true
+  },
+  "hand-waving": {
+    "line": true,
+    "filled": true
+  },
+  "hand-withdraw": {
+    "line": true,
+    "filled": true
+  },
+  "hands-clapping": {
+    "line": true,
+    "filled": true
+  },
+  "hands-praying": {
+    "line": true,
+    "filled": true
+  },
+  "handshake": {
+    "line": true,
+    "filled": true
+  },
+  "identification-badge": {
+    "line": true,
+    "filled": true
+  },
+  "identification-card": {
+    "line": true,
+    "filled": true
+  },
+  "person": {
+    "line": true,
+    "filled": true
+  },
+  "person-arms-spread": {
+    "line": true,
+    "filled": true
+  },
+  "person-simple": {
+    "line": true,
+    "filled": true
+  },
+  "person-simple-bike": {
+    "line": true,
+    "filled": true
+  },
+  "person-simple-circle": {
+    "line": true,
+    "filled": true
+  },
+  "person-simple-hike": {
+    "line": true,
+    "filled": true
+  },
+  "person-simple-run": {
+    "line": true,
+    "filled": true
+  },
+  "person-simple-swim": {
+    "line": true,
+    "filled": true
+  },
+  "person-simple-tai-chi": {
+    "line": true,
+    "filled": true
+  },
+  "person-simple-throw": {
+    "line": true,
+    "filled": true
+  },
+  "person-simple-walk": {
+    "line": true,
+    "filled": true
+  },
+  "smiley": {
+    "line": true,
+    "filled": true
+  },
+  "smiley-angry": {
+    "line": true,
+    "filled": true
+  },
+  "smiley-blank": {
+    "line": true,
+    "filled": true
+  },
+  "smiley-meh": {
+    "line": true,
+    "filled": true
+  },
+  "smiley-melting": {
+    "line": true,
+    "filled": true
+  },
+  "smiley-nervous": {
+    "line": true,
+    "filled": true
+  },
+  "smiley-sad": {
+    "line": true,
+    "filled": true
+  },
+  "smiley-sticker": {
+    "line": true,
+    "filled": true
+  },
+  "smiley-wink": {
+    "line": true,
+    "filled": true
+  },
+  "smiley-xeyes": {
+    "line": true,
+    "filled": true
+  },
+  "user": {
+    "line": true,
+    "filled": true
+  },
+  "user-check": {
+    "line": true,
+    "filled": true
+  },
+  "user-circle": {
+    "line": true,
+    "filled": true
+  },
+  "user-circle-check": {
+    "line": true,
+    "filled": true
+  },
+  "user-circle-dashed": {
+    "line": true,
+    "filled": true
+  },
+  "user-circle-gear": {
+    "line": true,
+    "filled": true
+  },
+  "user-circle-minus": {
+    "line": true,
+    "filled": true
+  },
+  "user-circle-plus": {
+    "line": true,
+    "filled": true
+  },
+  "user-focus": {
+    "line": true,
+    "filled": true
+  },
+  "user-gear": {
+    "line": true,
+    "filled": true
+  },
+  "user-list": {
+    "line": true,
+    "filled": true
+  },
+  "user-minus": {
+    "line": true,
+    "filled": true
+  },
+  "user-plus": {
+    "line": true,
+    "filled": true
+  },
+  "user-rectangle": {
+    "line": true,
+    "filled": true
+  },
+  "user-sound": {
+    "line": true,
+    "filled": true
+  },
+  "user-square": {
+    "line": true,
+    "filled": true
+  },
+  "user-switch": {
+    "line": true,
+    "filled": true
+  },
+  "users": {
+    "line": true,
+    "filled": true
+  },
+  "users-four": {
+    "line": true,
+    "filled": true
+  },
+  "users-three": {
+    "line": true,
+    "filled": true
+  },
+  "wheelchair": {
+    "line": true,
+    "filled": true
+  },
+  "wheelchair-motion": {
+    "line": true,
+    "filled": true
+  }
+}

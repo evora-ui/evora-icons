@@ -1,8 +1,10 @@
 # @evora-ui/icons-vue
 
-Vue 3 icon components, two variants: line and filled. 
+Vue 3 icon components — 1500+ free icons in two variants: line and filled.
 
-Fast builds, clean imports, great DX.
+- Tree‑shakable per‑icon imports
+- Typed names and props (great DX)
+- CSP/SSR‑friendly render modules
 
 ## Install
 
@@ -112,6 +114,10 @@ Additional attributes are forwarded to the underlying SVG (e.g. `stroke-width`, 
 - Nothing renders: ensure you provided the icon (or import the per‑icon component directly).
 - Wrong `name`: check the generated union (TypeScript will help) and the exact key used in provide.
 - Variant mismatch: if you only provided `line`, `variant="filled"` won’t resolve.
+
+## Categories data
+- This package doesn’t ship categories JSON. If you work in this monorepo, generated categories live under the repo root `categories/`.
+- Each icon entry explicitly includes both flags: `{ line: true|false, filled: true|false }`.
 
 ## License
 - Code: MIT (see LICENSE)

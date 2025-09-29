@@ -1,0 +1,486 @@
+{
+  "arrow-arc-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-arc-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-bend-double-up-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-bend-double-up-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-bend-down-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-bend-down-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-bend-left-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-bend-left-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-bend-right-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-bend-right-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-bend-up-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-bend-up-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-circle-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-circle-down-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-circle-down-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-circle-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-circle-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-circle-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-circle-up-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-circle-up-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-clockwise": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-counter-clockwise": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-down-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-down-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-elbow-down-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-elbow-down-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-elbow-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-elbow-left-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-elbow-left-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-elbow-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-elbow-right-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-elbow-right-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-elbow-up-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-elbow-up-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-fat-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-fat-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-fat-line-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-fat-line-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-fat-line-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-fat-line-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-fat-lines-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-fat-lines-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-fat-lines-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-fat-lines-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-fat-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-fat-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-line-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-line-down-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-line-down-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-line-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-line-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-line-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-line-up-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-line-up-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-square-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-square-down-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-square-down-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-square-in": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-square-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-square-out": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-square-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-square-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-square-up-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-square-up-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-udown-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-udown-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-uleft-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-uleft-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-uright-down": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-uright-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-uup-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-uup-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-up-left": {
+    "line": true,
+    "filled": true
+  },
+  "arrow-up-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-clockwise": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-counter-clockwise": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-down-up": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-horizontal": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-in": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-in-cardinal": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-in-line-horizontal": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-in-line-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-in-simple": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-left-right": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-merge": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-out": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-out-cardinal": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-out-line-horizontal": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-out-line-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-out-simple": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-split": {
+    "line": true,
+    "filled": true
+  },
+  "arrows-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "caret-circle-double-down": {
+    "line": true,
+    "filled": true
+  },
+  "caret-circle-double-left": {
+    "line": true,
+    "filled": true
+  },
+  "caret-circle-double-right": {
+    "line": true,
+    "filled": true
+  },
+  "caret-circle-double-up": {
+    "line": true,
+    "filled": true
+  },
+  "caret-circle-down": {
+    "line": true,
+    "filled": true
+  },
+  "caret-circle-left": {
+    "line": true,
+    "filled": true
+  },
+  "caret-circle-right": {
+    "line": true,
+    "filled": true
+  },
+  "caret-circle-up": {
+    "line": true,
+    "filled": true
+  },
+  "caret-circle-up-down": {
+    "line": true,
+    "filled": true
+  },
+  "caret-double-down": {
+    "line": true,
+    "filled": true
+  },
+  "caret-double-left": {
+    "line": true,
+    "filled": true
+  },
+  "caret-double-right": {
+    "line": true,
+    "filled": true
+  },
+  "caret-double-up": {
+    "line": true,
+    "filled": true
+  },
+  "caret-down": {
+    "line": true,
+    "filled": true
+  },
+  "caret-left": {
+    "line": true,
+    "filled": true
+  },
+  "caret-line-down": {
+    "line": true,
+    "filled": true
+  },
+  "caret-line-left": {
+    "line": true,
+    "filled": true
+  },
+  "caret-line-right": {
+    "line": true,
+    "filled": true
+  },
+  "caret-line-up": {
+    "line": true,
+    "filled": true
+  },
+  "caret-right": {
+    "line": true,
+    "filled": true
+  },
+  "caret-up": {
+    "line": true,
+    "filled": true
+  },
+  "caret-up-down": {
+    "line": true,
+    "filled": true
+  },
+  "recycle": {
+    "line": true,
+    "filled": true
+  },
+  "vector-three": {
+    "line": true,
+    "filled": true
+  },
+  "vector-two": {
+    "line": true,
+    "filled": true
+  }
+}

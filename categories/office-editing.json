@@ -1,0 +1,526 @@
+{
+  "archive": {
+    "line": true,
+    "filled": true
+  },
+  "box-arrow-down": {
+    "line": true,
+    "filled": true
+  },
+  "box-arrow-up": {
+    "line": true,
+    "filled": true
+  },
+  "briefcase": {
+    "line": true,
+    "filled": true
+  },
+  "briefcase-metal": {
+    "line": true,
+    "filled": true
+  },
+  "cards": {
+    "line": true,
+    "filled": true
+  },
+  "cards-three": {
+    "line": true,
+    "filled": true
+  },
+  "clipboard": {
+    "line": true,
+    "filled": true
+  },
+  "clipboard-text": {
+    "line": true,
+    "filled": true
+  },
+  "copy": {
+    "line": true,
+    "filled": true
+  },
+  "copy-simple": {
+    "line": true,
+    "filled": true
+  },
+  "cursor-text": {
+    "line": true,
+    "filled": true
+  },
+  "file": {
+    "line": true,
+    "filled": true
+  },
+  "file-archive": {
+    "line": true,
+    "filled": true
+  },
+  "file-arrow-down": {
+    "line": true,
+    "filled": true
+  },
+  "file-arrow-up": {
+    "line": true,
+    "filled": true
+  },
+  "file-audio": {
+    "line": true,
+    "filled": true
+  },
+  "file-c": {
+    "line": true,
+    "filled": true
+  },
+  "file-csharp": {
+    "line": true,
+    "filled": true
+  },
+  "file-cloud": {
+    "line": true,
+    "filled": true
+  },
+  "file-code": {
+    "line": true,
+    "filled": true
+  },
+  "file-cpp": {
+    "line": true,
+    "filled": true
+  },
+  "file-css": {
+    "line": true,
+    "filled": true
+  },
+  "file-csv": {
+    "line": true,
+    "filled": true
+  },
+  "file-dashed": {
+    "line": true,
+    "filled": true
+  },
+  "file-doc": {
+    "line": true,
+    "filled": true
+  },
+  "file-html": {
+    "line": true,
+    "filled": true
+  },
+  "file-image": {
+    "line": true,
+    "filled": true
+  },
+  "file-ini": {
+    "line": true,
+    "filled": true
+  },
+  "file-jpg": {
+    "line": true,
+    "filled": true
+  },
+  "file-js": {
+    "line": true,
+    "filled": true
+  },
+  "file-jsx": {
+    "line": true,
+    "filled": true
+  },
+  "file-lock": {
+    "line": true,
+    "filled": true
+  },
+  "file-magnifying-glass": {
+    "line": true,
+    "filled": true
+  },
+  "file-md": {
+    "line": true,
+    "filled": true
+  },
+  "file-minus": {
+    "line": true,
+    "filled": true
+  },
+  "file-pdf": {
+    "line": true,
+    "filled": true
+  },
+  "file-plus": {
+    "line": true,
+    "filled": true
+  },
+  "file-png": {
+    "line": true,
+    "filled": true
+  },
+  "file-ppt": {
+    "line": true,
+    "filled": true
+  },
+  "file-py": {
+    "line": true,
+    "filled": true
+  },
+  "file-rs": {
+    "line": true,
+    "filled": true
+  },
+  "file-sql": {
+    "line": true,
+    "filled": true
+  },
+  "file-svg": {
+    "line": true,
+    "filled": true
+  },
+  "file-text": {
+    "line": true,
+    "filled": true
+  },
+  "file-ts": {
+    "line": true,
+    "filled": true
+  },
+  "file-tsx": {
+    "line": true,
+    "filled": true
+  },
+  "file-txt": {
+    "line": true,
+    "filled": true
+  },
+  "file-video": {
+    "line": true,
+    "filled": true
+  },
+  "file-vue": {
+    "line": true,
+    "filled": true
+  },
+  "file-x": {
+    "line": true,
+    "filled": true
+  },
+  "file-xls": {
+    "line": true,
+    "filled": true
+  },
+  "file-zip": {
+    "line": true,
+    "filled": true
+  },
+  "files": {
+    "line": true,
+    "filled": true
+  },
+  "floppy-disk": {
+    "line": true,
+    "filled": true
+  },
+  "floppy-disk-back": {
+    "line": true,
+    "filled": true
+  },
+  "folder": {
+    "line": true,
+    "filled": true
+  },
+  "folder-dashed": {
+    "line": true,
+    "filled": true
+  },
+  "folder-lock": {
+    "line": true,
+    "filled": true
+  },
+  "folder-minus": {
+    "line": true,
+    "filled": true
+  },
+  "folder-open": {
+    "line": true,
+    "filled": true
+  },
+  "folder-plus": {
+    "line": true,
+    "filled": true
+  },
+  "folder-simple": {
+    "line": true,
+    "filled": true
+  },
+  "folder-simple-dashed": {
+    "line": true,
+    "filled": true
+  },
+  "folder-simple-lock": {
+    "line": true,
+    "filled": true
+  },
+  "folder-simple-minus": {
+    "line": true,
+    "filled": true
+  },
+  "folder-simple-plus": {
+    "line": true,
+    "filled": true
+  },
+  "folder-simple-star": {
+    "line": true,
+    "filled": true
+  },
+  "folder-simple-user": {
+    "line": true,
+    "filled": true
+  },
+  "folder-star": {
+    "line": true,
+    "filled": true
+  },
+  "folder-user": {
+    "line": true,
+    "filled": true
+  },
+  "folders": {
+    "line": true,
+    "filled": true
+  },
+  "funnel": {
+    "line": true,
+    "filled": true
+  },
+  "funnel-simple": {
+    "line": true,
+    "filled": true
+  },
+  "funnel-simple-x": {
+    "line": true,
+    "filled": true
+  },
+  "funnel-x": {
+    "line": true,
+    "filled": true
+  },
+  "kanban": {
+    "line": true,
+    "filled": true
+  },
+  "list": {
+    "line": true,
+    "filled": true
+  },
+  "list-bullets": {
+    "line": true,
+    "filled": true
+  },
+  "list-checks": {
+    "line": true,
+    "filled": true
+  },
+  "list-dashes": {
+    "line": true,
+    "filled": true
+  },
+  "list-numbers": {
+    "line": true,
+    "filled": true
+  },
+  "list-plus": {
+    "line": true,
+    "filled": true
+  },
+  "note": {
+    "line": true,
+    "filled": true
+  },
+  "note-blank": {
+    "line": true,
+    "filled": true
+  },
+  "note-pencil": {
+    "line": true,
+    "filled": true
+  },
+  "notebook": {
+    "line": true,
+    "filled": true
+  },
+  "notepad": {
+    "line": true,
+    "filled": true
+  },
+  "paperclip": {
+    "line": true,
+    "filled": true
+  },
+  "paperclip-horizontal": {
+    "line": true,
+    "filled": true
+  },
+  "paragraph": {
+    "line": true,
+    "filled": true
+  },
+  "presentation": {
+    "line": true,
+    "filled": true
+  },
+  "presentation-chart": {
+    "line": true,
+    "filled": true
+  },
+  "printer": {
+    "line": true,
+    "filled": true
+  },
+  "projector-screen": {
+    "line": true,
+    "filled": true
+  },
+  "projector-screen-chart": {
+    "line": true,
+    "filled": true
+  },
+  "push-pin": {
+    "line": true,
+    "filled": true
+  },
+  "push-pin-simple": {
+    "line": true,
+    "filled": true
+  },
+  "push-pin-simple-slash": {
+    "line": true,
+    "filled": true
+  },
+  "push-pin-slash": {
+    "line": true,
+    "filled": true
+  },
+  "sort-ascending": {
+    "line": true,
+    "filled": true
+  },
+  "sort-descending": {
+    "line": true,
+    "filled": true
+  },
+  "text-aa": {
+    "line": true,
+    "filled": true
+  },
+  "text-align-center": {
+    "line": true,
+    "filled": true
+  },
+  "text-align-justify": {
+    "line": true,
+    "filled": true
+  },
+  "text-align-left": {
+    "line": true,
+    "filled": true
+  },
+  "text-align-right": {
+    "line": true,
+    "filled": true
+  },
+  "text-b": {
+    "line": true,
+    "filled": true
+  },
+  "text-columns": {
+    "line": true,
+    "filled": true
+  },
+  "text-h": {
+    "line": true,
+    "filled": true
+  },
+  "text-hfive": {
+    "line": true,
+    "filled": true
+  },
+  "text-hfour": {
+    "line": true,
+    "filled": true
+  },
+  "text-hone": {
+    "line": true,
+    "filled": true
+  },
+  "text-hsix": {
+    "line": true,
+    "filled": true
+  },
+  "text-hthree": {
+    "line": true,
+    "filled": true
+  },
+  "text-htwo": {
+    "line": true,
+    "filled": true
+  },
+  "text-indent": {
+    "line": true,
+    "filled": true
+  },
+  "text-italic": {
+    "line": true,
+    "filled": true
+  },
+  "text-outdent": {
+    "line": true,
+    "filled": true
+  },
+  "text-strikethrough": {
+    "line": true,
+    "filled": true
+  },
+  "text-subscript": {
+    "line": true,
+    "filled": true
+  },
+  "text-superscript": {
+    "line": true,
+    "filled": true
+  },
+  "text-t": {
+    "line": true,
+    "filled": true
+  },
+  "text-tslash": {
+    "line": true,
+    "filled": true
+  },
+  "text-underline": {
+    "line": true,
+    "filled": true
+  },
+  "textbox": {
+    "line": true,
+    "filled": true
+  },
+  "trash": {
+    "line": true,
+    "filled": true
+  },
+  "trash-simple": {
+    "line": true,
+    "filled": true
+  },
+  "tray": {
+    "line": true,
+    "filled": true
+  },
+  "tray-arrow-down": {
+    "line": true,
+    "filled": true
+  },
+  "tray-arrow-up": {
+    "line": true,
+    "filled": true
+  }
+}

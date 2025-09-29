@@ -4,6 +4,8 @@ node_modules
 .vscode
 .idea
 dist
+
 packages/vue/src/icons/
+!packages/vue/src/icons/names.ts
 packages/vue/NOTICE
 packages/vue/LICENSE

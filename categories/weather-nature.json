@@ -1,0 +1,250 @@
+{
+  "acorn": {
+    "line": true,
+    "filled": true
+  },
+  "atom": {
+    "line": true,
+    "filled": true
+  },
+  "bird": {
+    "line": true,
+    "filled": true
+  },
+  "bone": {
+    "line": true,
+    "filled": true
+  },
+  "butterfly": {
+    "line": true,
+    "filled": true
+  },
+  "cactus": {
+    "line": true,
+    "filled": true
+  },
+  "campfire": {
+    "line": true,
+    "filled": true
+  },
+  "cat": {
+    "line": true,
+    "filled": true
+  },
+  "cloud": {
+    "line": true,
+    "filled": true
+  },
+  "cloud-fog": {
+    "line": true,
+    "filled": true
+  },
+  "cloud-lightning": {
+    "line": true,
+    "filled": true
+  },
+  "cloud-moon": {
+    "line": true,
+    "filled": true
+  },
+  "cloud-rain": {
+    "line": true,
+    "filled": true
+  },
+  "cloud-snow": {
+    "line": true,
+    "filled": true
+  },
+  "cloud-sun": {
+    "line": true,
+    "filled": true
+  },
+  "clover": {
+    "line": true,
+    "filled": true
+  },
+  "cow": {
+    "line": true,
+    "filled": true
+  },
+  "dog": {
+    "line": true,
+    "filled": true
+  },
+  "drop": {
+    "line": true,
+    "filled": true
+  },
+  "drop-simple": {
+    "line": true,
+    "filled": true
+  },
+  "feather": {
+    "line": true,
+    "filled": true
+  },
+  "fire": {
+    "line": true,
+    "filled": true
+  },
+  "fire-simple": {
+    "line": true,
+    "filled": true
+  },
+  "fish": {
+    "line": true,
+    "filled": true
+  },
+  "fish-simple": {
+    "line": true,
+    "filled": true
+  },
+  "flame": {
+    "line": true,
+    "filled": true
+  },
+  "flower": {
+    "line": true,
+    "filled": true
+  },
+  "flower-lotus": {
+    "line": true,
+    "filled": true
+  },
+  "flower-tulip": {
+    "line": true,
+    "filled": true
+  },
+  "hurricane": {
+    "line": true,
+    "filled": true
+  },
+  "island": {
+    "line": true,
+    "filled": true
+  },
+  "leaf": {
+    "line": true,
+    "filled": true
+  },
+  "log": {
+    "line": true,
+    "filled": true
+  },
+  "meteor": {
+    "line": true,
+    "filled": true
+  },
+  "moon": {
+    "line": true,
+    "filled": true
+  },
+  "moon-stars": {
+    "line": true,
+    "filled": true
+  },
+  "mountains": {
+    "line": true,
+    "filled": true
+  },
+  "paw-print": {
+    "line": true,
+    "filled": true
+  },
+  "planet": {
+    "line": true,
+    "filled": true
+  },
+  "plant": {
+    "line": true,
+    "filled": true
+  },
+  "rabbit": {
+    "line": true,
+    "filled": true
+  },
+  "rainbow": {
+    "line": true,
+    "filled": true
+  },
+  "rainbow-cloud": {
+    "line": true,
+    "filled": true
+  },
+  "shooting-star": {
+    "line": true,
+    "filled": true
+  },
+  "shrimp": {
+    "line": true,
+    "filled": true
+  },
+  "snowflake": {
+    "line": true,
+    "filled": true
+  },
+  "sparkle": {
+    "line": true,
+    "filled": true
+  },
+  "star-four": {
+    "line": true,
+    "filled": true
+  },
+  "sun": {
+    "line": true,
+    "filled": true
+  },
+  "sun-dim": {
+    "line": true,
+    "filled": true
+  },
+  "sun-horizon": {
+    "line": true,
+    "filled": true
+  },
+  "thermometer": {
+    "line": true,
+    "filled": true
+  },
+  "thermometer-cold": {
+    "line": true,
+    "filled": true
+  },
+  "thermometer-hot": {
+    "line": true,
+    "filled": true
+  },
+  "thermometer-simple": {
+    "line": true,
+    "filled": true
+  },
+  "tornado": {
+    "line": true,
+    "filled": true
+  },
+  "tree": {
+    "line": true,
+    "filled": true
+  },
+  "tree-evergreen": {
+    "line": true,
+    "filled": true
+  },
+  "umbrella": {
+    "line": true,
+    "filled": true
+  },
+  "umbrella-simple": {
+    "line": true,
+    "filled": true
+  },
+  "waves": {
+    "line": true,
+    "filled": true
+  },
+  "wind": {
+    "line": true,
+    "filled": true
+  }
+}

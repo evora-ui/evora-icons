@@ -1,0 +1,78 @@
+{
+  "book": {
+    "line": true,
+    "filled": true
+  },
+  "book-bookmark": {
+    "line": true,
+    "filled": true
+  },
+  "book-open": {
+    "line": true,
+    "filled": true
+  },
+  "book-open-text": {
+    "line": true,
+    "filled": true
+  },
+  "book-open-user": {
+    "line": true,
+    "filled": true
+  },
+  "bookmark": {
+    "line": true,
+    "filled": true
+  },
+  "bookmark-simple": {
+    "line": true,
+    "filled": true
+  },
+  "bookmarks": {
+    "line": true,
+    "filled": true
+  },
+  "bookmarks-simple": {
+    "line": true,
+    "filled": true
+  },
+  "books": {
+    "line": true,
+    "filled": true
+  },
+  "certificate": {
+    "line": true,
+    "filled": true
+  },
+  "chalkboard": {
+    "line": true,
+    "filled": true
+  },
+  "chalkboard-simple": {
+    "line": true,
+    "filled": true
+  },
+  "chalkboard-teacher": {
+    "line": true,
+    "filled": true
+  },
+  "exam": {
+    "line": true,
+    "filled": true
+  },
+  "graduation-cap": {
+    "line": true,
+    "filled": true
+  },
+  "lectern": {
+    "line": true,
+    "filled": true
+  },
+  "student": {
+    "line": true,
+    "filled": true
+  },
+  "video": {
+    "line": true,
+    "filled": true
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "approximate-equals": {
+    "line": true,
+    "filled": true
+  },
+  "bank": {
+    "line": true,
+    "filled": true
+  },
+  "calculator": {
+    "line": true,
+    "filled": true
+  },
+  "chart-bar": {
+    "line": true,
+    "filled": true
+  },
+  "chart-bar-horizontal": {
+    "line": true,
+    "filled": true
+  },
+  "chart-donut": {
+    "line": true,
+    "filled": true
+  },
+  "chart-line": {
+    "line": true,
+    "filled": true
+  },
+  "chart-line-down": {
+    "line": true,
+    "filled": true
+  },
+  "chart-line-up": {
+    "line": true,
+    "filled": true
+  },
+  "chart-pie": {
+    "line": true,
+    "filled": true
+  },
+  "chart-pie-slice": {
+    "line": true,
+    "filled": true
+  },
+  "chart-polar": {
+    "line": true,
+    "filled": true
+  },
+  "chart-scatter": {
+    "line": true,
+    "filled": true
+  },
+  "divide": {
+    "line": true,
+    "filled": true
+  },
+  "empty": {
+    "line": true,
+    "filled": true
+  },
+  "equals": {
+    "line": true,
+    "filled": true
+  },
+  "function": {
+    "line": true,
+    "filled": true
+  },
+  "graph": {
+    "line": true,
+    "filled": true
+  },
+  "greater-than": {
+    "line": true,
+    "filled": true
+  },
+  "greater-than-or-equal": {
+    "line": true,
+    "filled": true
+  },
+  "infinity": {
+    "line": true,
+    "filled": true
+  },
+  "intersection": {
+    "line": true,
+    "filled": true
+  },
+  "less-than": {
+    "line": true,
+    "filled": true
+  },
+  "less-than-or-equal": {
+    "line": true,
+    "filled": true
+  },
+  "math-operations": {
+    "line": true,
+    "filled": true
+  },
+  "member-of": {
+    "line": true,
+    "filled": true
+  },
+  "minus": {
+    "line": true,
+    "filled": true
+  },
+  "minus-circle": {
+    "line": true,
+    "filled": true
+  },
+  "minus-square": {
+    "line": true,
+    "filled": true
+  },
+  "not-equals": {
+    "line": true,
+    "filled": true
+  },
+  "not-member-of": {
+    "line": true,
+    "filled": true
+  },
+  "not-subset-of": {
+    "line": true,
+    "filled": true
+  },
+  "not-superset-of": {
+    "line": true,
+    "filled": true
+  },
+  "number-circle-eight": {
+    "line": true,
+    "filled": true
+  },
+  "number-circle-five": {
+    "line": true,
+    "filled": true
+  },
+  "number-circle-four": {
+    "line": true,
+    "filled": true
+  },
+  "number-circle-nine": {
+    "line": true,
+    "filled": true
+  },
+  "number-circle-one": {
+    "line": true,
+    "filled": true
+  },
+  "number-circle-seven": {
+    "line": true,
+    "filled": true
+  },
+  "number-circle-six": {
+    "line": true,
+    "filled": true
+  },
+  "number-circle-three": {
+    "line": true,
+    "filled": true
+  },
+  "number-circle-two": {
+    "line": true,
+    "filled": true
+  },
+  "number-circle-zero": {
+    "line": true,
+    "filled": true
+  },
+  "number-eight": {
+    "line": true,
+    "filled": true
+  },
+  "number-five": {
+    "line": true,
+    "filled": true
+  },
+  "number-four": {
+    "line": true,
+    "filled": true
+  },
+  "number-nine": {
+    "line": true,
+    "filled": true
+  },
+  "number-one": {
+    "line": true,
+    "filled": true
+  },
+  "number-seven": {
+    "line": true,
+    "filled": true
+  },
+  "number-six": {
+    "line": true,
+    "filled": true
+  },
+  "number-square-eight": {
+    "line": true,
+    "filled": true
+  },
+  "number-square-five": {
+    "line": true,
+    "filled": true
+  },
+  "number-square-four": {
+    "line": true,
+    "filled": true
+  },
+  "number-square-nine": {
+    "line": true,
+    "filled": true
+  },
+  "number-square-one": {
+    "line": true,
+    "filled": true
+  },
+  "number-square-seven": {
+    "line": true,
+    "filled": true
+  },
+  "number-square-six": {
+    "line": true,
+    "filled": true
+  },
+  "number-square-three": {
+    "line": true,
+    "filled": true
+  },
+  "number-square-two": {
+    "line": true,
+    "filled": true
+  },
+  "number-square-zero": {
+    "line": true,
+    "filled": true
+  },
+  "number-three": {
+    "line": true,
+    "filled": true
+  },
+  "number-two": {
+    "line": true,
+    "filled": true
+  },
+  "number-zero": {
+    "line": true,
+    "filled": true
+  },
+  "percent": {
+    "line": true,
+    "filled": true
+  },
+  "pi": {
+    "line": true,
+    "filled": true
+  },
+  "plus": {
+    "line": true,
+    "filled": true
+  },
+  "plus-circle": {
+    "line": true,
+    "filled": true
+  },
+  "plus-minus": {
+    "line": true,
+    "filled": true
+  },
+  "plus-square": {
+    "line": true,
+    "filled": true
+  },
+  "radical": {
+    "line": true,
+    "filled": true
+  },
+  "sigma": {
+    "line": true,
+    "filled": true
+  },
+  "subset-of": {
+    "line": true,
+    "filled": true
+  },
+  "subset-proper-of": {
+    "line": true,
+    "filled": true
+  },
+  "superset-of": {
+    "line": true,
+    "filled": true
+  },
+  "superset-proper-of": {
+    "line": true,
+    "filled": true
+  },
+  "table": {
+    "line": true,
+    "filled": true
+  },
+  "tilde": {
+    "line": true,
+    "filled": true
+  },
+  "trend-down": {
+    "line": true,
+    "filled": true
+  },
+  "trend-up": {
+    "line": true,
+    "filled": true
+  },
+  "union": {
+    "line": true,
+    "filled": true
+  },
+  "xcircle": {
+    "line": true,
+    "filled": true
+  },
+  "xplain": {
+    "line": true,
+    "filled": true
+  },
+  "xsquare": {
+    "line": true,
+    "filled": true
+  }
+}

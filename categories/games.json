@@ -1,0 +1,294 @@
+{
+  "alien": {
+    "line": true,
+    "filled": true
+  },
+  "baseball": {
+    "line": true,
+    "filled": true
+  },
+  "baseball-helmet": {
+    "line": true,
+    "filled": true
+  },
+  "basketball": {
+    "line": true,
+    "filled": true
+  },
+  "beach-ball": {
+    "line": true,
+    "filled": true
+  },
+  "bomb": {
+    "line": true,
+    "filled": true
+  },
+  "boules": {
+    "line": true,
+    "filled": true
+  },
+  "bowling-ball": {
+    "line": true,
+    "filled": true
+  },
+  "boxing-glove": {
+    "line": true,
+    "filled": true
+  },
+  "castle-turret": {
+    "line": true,
+    "filled": true
+  },
+  "checkerboard": {
+    "line": true,
+    "filled": true
+  },
+  "club": {
+    "line": true,
+    "filled": true
+  },
+  "confetti": {
+    "line": true,
+    "filled": true
+  },
+  "court-basketball": {
+    "line": true,
+    "filled": true
+  },
+  "cricket": {
+    "line": true,
+    "filled": true
+  },
+  "crown": {
+    "line": true,
+    "filled": true
+  },
+  "crown-cross": {
+    "line": true,
+    "filled": true
+  },
+  "crown-simple": {
+    "line": true,
+    "filled": true
+  },
+  "cube-focus": {
+    "line": true,
+    "filled": true
+  },
+  "diamond": {
+    "line": true,
+    "filled": true
+  },
+  "dice-five": {
+    "line": true,
+    "filled": true
+  },
+  "dice-four": {
+    "line": true,
+    "filled": true
+  },
+  "dice-one": {
+    "line": true,
+    "filled": true
+  },
+  "dice-six": {
+    "line": true,
+    "filled": true
+  },
+  "dice-three": {
+    "line": true,
+    "filled": true
+  },
+  "dice-two": {
+    "line": true,
+    "filled": true
+  },
+  "disco-ball": {
+    "line": true,
+    "filled": true
+  },
+  "drone": {
+    "line": true,
+    "filled": true
+  },
+  "finn-the-human": {
+    "line": true,
+    "filled": true
+  },
+  "flying-saucer": {
+    "line": true,
+    "filled": true
+  },
+  "football": {
+    "line": true,
+    "filled": true
+  },
+  "football-helmet": {
+    "line": true,
+    "filled": true
+  },
+  "game-controller": {
+    "line": true,
+    "filled": true
+  },
+  "ghost": {
+    "line": true,
+    "filled": true
+  },
+  "golf": {
+    "line": true,
+    "filled": true
+  },
+  "google-cardboard-logo": {
+    "line": true,
+    "filled": true
+  },
+  "heart": {
+    "line": true,
+    "filled": true
+  },
+  "heart-break": {
+    "line": true,
+    "filled": true
+  },
+  "heart-half": {
+    "line": true,
+    "filled": true
+  },
+  "heart-straight": {
+    "line": true,
+    "filled": true
+  },
+  "heart-straight-break": {
+    "line": true,
+    "filled": true
+  },
+  "hockey": {
+    "line": true,
+    "filled": true
+  },
+  "horse": {
+    "line": true,
+    "filled": true
+  },
+  "joystick": {
+    "line": true,
+    "filled": true
+  },
+  "lego": {
+    "line": true,
+    "filled": true
+  },
+  "lego-smiley": {
+    "line": true,
+    "filled": true
+  },
+  "mask-happy": {
+    "line": true,
+    "filled": true
+  },
+  "mask-sad": {
+    "line": true,
+    "filled": true
+  },
+  "medal": {
+    "line": true,
+    "filled": true
+  },
+  "medal-military": {
+    "line": true,
+    "filled": true
+  },
+  "parachute": {
+    "line": true,
+    "filled": true
+  },
+  "person-simple-ski": {
+    "line": true,
+    "filled": true
+  },
+  "person-simple-snowboard": {
+    "line": true,
+    "filled": true
+  },
+  "ping-pong": {
+    "line": true,
+    "filled": true
+  },
+  "pinwheel": {
+    "line": true,
+    "filled": true
+  },
+  "poker-chip": {
+    "line": true,
+    "filled": true
+  },
+  "puzzle-piece": {
+    "line": true,
+    "filled": true
+  },
+  "racquet": {
+    "line": true,
+    "filled": true
+  },
+  "ranking": {
+    "line": true,
+    "filled": true
+  },
+  "scroll": {
+    "line": true,
+    "filled": true
+  },
+  "skull": {
+    "line": true,
+    "filled": true
+  },
+  "soccer-ball": {
+    "line": true,
+    "filled": true
+  },
+  "spade": {
+    "line": true,
+    "filled": true
+  },
+  "spiral": {
+    "line": true,
+    "filled": true
+  },
+  "strategy": {
+    "line": true,
+    "filled": true
+  },
+  "sword": {
+    "line": true,
+    "filled": true
+  },
+  "target": {
+    "line": true,
+    "filled": true
+  },
+  "tennis-ball": {
+    "line": true,
+    "filled": true
+  },
+  "treasure-chest": {
+    "line": true,
+    "filled": true
+  },
+  "tree-palm": {
+    "line": true,
+    "filled": true
+  },
+  "trophy": {
+    "line": true,
+    "filled": true
+  },
+  "virtual-reality": {
+    "line": true,
+    "filled": true
+  },
+  "volleyball": {
+    "line": true,
+    "filled": true
+  }
+}
