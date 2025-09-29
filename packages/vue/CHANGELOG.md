@@ -1,19 +1,22 @@
 # @evora-ui/icons-vue
 
-## 0.1.3
+## 0.2.0
 
-### Patch Changes
+### Features
+- Add async loader exports:
+  - `@evora-ui/icons-vue/icons/line/async`
+  - `@evora-ui/icons-vue/icons/filled/async`
 
-- d19bf1c: update
+### Docs
+- Improve README: highlight 1500+ free icons, two variants, usage tips.
 
-## 0.1.2
+### Chore / Meta
+- Polish package metadata (description, keywords, author, repository.directory, homepage).
+- Keep only `src/icons/names.ts` tracked in git; ignore other generated icon sources.
 
-### Patch Changes
+### Tooling (monorepo)
+- Refactor icon generator into modules; simplify main script.
+- Move categories output to repo root (`/categories`) with normalized keys (`&` → `-`).
+- Category entries explicitly include both flags: `{ line: true|false, filled: true|false }`.
 
-- 34e658e: fixes
-
-## 0.1.1
-
-### Patch Changes
-
-- efbf29d: chore: setup Changesets for automated versioning and CHANGELOG; fix package metadata and ensure LICENSE/NOTICE are included in published tarballs.
+Note: No runtime breaking changes expected for package consumers. Categories JSON is not shipped with the package (available in the monorepo under `/categories`).
