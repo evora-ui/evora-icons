@@ -1,0 +1,394 @@
+{
+  "air-traffic-control": {
+    "line": true,
+    "filled": true
+  },
+  "airplane": {
+    "line": true,
+    "filled": true
+  },
+  "airplane-in-flight": {
+    "line": true,
+    "filled": true
+  },
+  "airplane-landing": {
+    "line": true,
+    "filled": true
+  },
+  "airplane-takeoff": {
+    "line": true,
+    "filled": true
+  },
+  "airplane-taxiing": {
+    "line": true,
+    "filled": true
+  },
+  "airplane-tilt": {
+    "line": true,
+    "filled": true
+  },
+  "anchor": {
+    "line": true,
+    "filled": true
+  },
+  "anchor-simple": {
+    "line": true,
+    "filled": true
+  },
+  "barricade": {
+    "line": true,
+    "filled": true
+  },
+  "boat": {
+    "line": true,
+    "filled": true
+  },
+  "bus": {
+    "line": true,
+    "filled": true
+  },
+  "cable-car": {
+    "line": true,
+    "filled": true
+  },
+  "car": {
+    "line": true,
+    "filled": true
+  },
+  "car-profile": {
+    "line": true,
+    "filled": true
+  },
+  "car-simple": {
+    "line": true,
+    "filled": true
+  },
+  "charging-station": {
+    "line": true,
+    "filled": true
+  },
+  "church": {
+    "line": true,
+    "filled": true
+  },
+  "compass": {
+    "line": true,
+    "filled": true
+  },
+  "compass-rose": {
+    "line": true,
+    "filled": true
+  },
+  "crosshair": {
+    "line": true,
+    "filled": true
+  },
+  "crosshair-simple": {
+    "line": true,
+    "filled": true
+  },
+  "elevator": {
+    "line": true,
+    "filled": true
+  },
+  "engine": {
+    "line": true,
+    "filled": true
+  },
+  "escalator-down": {
+    "line": true,
+    "filled": true
+  },
+  "escalator-up": {
+    "line": true,
+    "filled": true
+  },
+  "flag": {
+    "line": true,
+    "filled": true
+  },
+  "flag-banner": {
+    "line": true,
+    "filled": true
+  },
+  "flag-banner-fold": {
+    "line": true,
+    "filled": true
+  },
+  "flag-checkered": {
+    "line": true,
+    "filled": true
+  },
+  "flag-pennant": {
+    "line": true,
+    "filled": true
+  },
+  "gas-can": {
+    "line": true,
+    "filled": true
+  },
+  "gas-pump": {
+    "line": true,
+    "filled": true
+  },
+  "globe": {
+    "line": true,
+    "filled": true
+  },
+  "globe-hemisphere-east": {
+    "line": true,
+    "filled": true
+  },
+  "globe-hemisphere-west": {
+    "line": true,
+    "filled": true
+  },
+  "globe-simple": {
+    "line": true,
+    "filled": true
+  },
+  "globe-simple-x": {
+    "line": true,
+    "filled": true
+  },
+  "globe-stand": {
+    "line": true,
+    "filled": true
+  },
+  "globe-x": {
+    "line": true,
+    "filled": true
+  },
+  "goggles": {
+    "line": true,
+    "filled": true
+  },
+  "gps": {
+    "line": true,
+    "filled": true
+  },
+  "gps-fix": {
+    "line": true,
+    "filled": true
+  },
+  "gps-slash": {
+    "line": true,
+    "filled": true
+  },
+  "headlights": {
+    "line": true,
+    "filled": true
+  },
+  "hospital": {
+    "line": true,
+    "filled": true
+  },
+  "house": {
+    "line": true,
+    "filled": true
+  },
+  "house-line": {
+    "line": true,
+    "filled": true
+  },
+  "house-simple": {
+    "line": true,
+    "filled": true
+  },
+  "jeep": {
+    "line": true,
+    "filled": true
+  },
+  "lighthouse": {
+    "line": true,
+    "filled": true
+  },
+  "lockers": {
+    "line": true,
+    "filled": true
+  },
+  "map-pin": {
+    "line": true,
+    "filled": true
+  },
+  "map-pin-area": {
+    "line": true,
+    "filled": true
+  },
+  "map-pin-line": {
+    "line": true,
+    "filled": true
+  },
+  "map-pin-plus": {
+    "line": true,
+    "filled": true
+  },
+  "map-pin-simple": {
+    "line": true,
+    "filled": true
+  },
+  "map-pin-simple-area": {
+    "line": true,
+    "filled": true
+  },
+  "map-pin-simple-line": {
+    "line": true,
+    "filled": true
+  },
+  "map-trifold": {
+    "line": true,
+    "filled": true
+  },
+  "moped": {
+    "line": true,
+    "filled": true
+  },
+  "moped-front": {
+    "line": true,
+    "filled": true
+  },
+  "mosque": {
+    "line": true,
+    "filled": true
+  },
+  "motorcycle": {
+    "line": true,
+    "filled": true
+  },
+  "navigation-arrow": {
+    "line": true,
+    "filled": true
+  },
+  "park": {
+    "line": true,
+    "filled": true
+  },
+  "path": {
+    "line": true,
+    "filled": true
+  },
+  "police-car": {
+    "line": true,
+    "filled": true
+  },
+  "road-horizon": {
+    "line": true,
+    "filled": true
+  },
+  "rocket": {
+    "line": true,
+    "filled": true
+  },
+  "rocket-launch": {
+    "line": true,
+    "filled": true
+  },
+  "sailboat": {
+    "line": true,
+    "filled": true
+  },
+  "scooter": {
+    "line": true,
+    "filled": true
+  },
+  "seat": {
+    "line": true,
+    "filled": true
+  },
+  "shipping-container": {
+    "line": true,
+    "filled": true
+  },
+  "signpost": {
+    "line": true,
+    "filled": true
+  },
+  "steering-wheel": {
+    "line": true,
+    "filled": true
+  },
+  "steps": {
+    "line": true,
+    "filled": true
+  },
+  "subway": {
+    "line": true,
+    "filled": true
+  },
+  "suitcase": {
+    "line": true,
+    "filled": true
+  },
+  "suitcase-rolling": {
+    "line": true,
+    "filled": true
+  },
+  "suitcase-simple": {
+    "line": true,
+    "filled": true
+  },
+  "swimming-pool": {
+    "line": true,
+    "filled": true
+  },
+  "synagogue": {
+    "line": true,
+    "filled": true
+  },
+  "taxi": {
+    "line": true,
+    "filled": true
+  },
+  "tent": {
+    "line": true,
+    "filled": true
+  },
+  "tipi": {
+    "line": true,
+    "filled": true
+  },
+  "traffic-cone": {
+    "line": true,
+    "filled": true
+  },
+  "traffic-sign": {
+    "line": true,
+    "filled": true
+  },
+  "traffic-signal": {
+    "line": true,
+    "filled": true
+  },
+  "train": {
+    "line": true,
+    "filled": true
+  },
+  "train-regional": {
+    "line": true,
+    "filled": true
+  },
+  "train-simple": {
+    "line": true,
+    "filled": true
+  },
+  "tram": {
+    "line": true,
+    "filled": true
+  },
+  "trolley": {
+    "line": true,
+    "filled": true
+  },
+  "trolley-suitcase": {
+    "line": true,
+    "filled": true
+  },
+  "truck": {
+    "line": true,
+    "filled": true
+  },
+  "van": {
+    "line": true,
+    "filled": true
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "biohazard": {
+    "line": true,
+    "filled": true
+  },
+  "detective": {
+    "line": true,
+    "filled": true
+  },
+  "exclamation-mark": {
+    "line": true,
+    "filled": true
+  },
+  "fallout-shelter": {
+    "line": true,
+    "filled": true
+  },
+  "fingerprint": {
+    "line": true,
+    "filled": true
+  },
+  "fingerprint-simple": {
+    "line": true,
+    "filled": true
+  },
+  "fire-extinguisher": {
+    "line": true,
+    "filled": true
+  },
+  "info": {
+    "line": true,
+    "filled": true
+  },
+  "key": {
+    "line": true,
+    "filled": true
+  },
+  "keyhole": {
+    "line": true,
+    "filled": true
+  },
+  "lock": {
+    "line": true,
+    "filled": true
+  },
+  "lock-key": {
+    "line": true,
+    "filled": true
+  },
+  "lock-key-open": {
+    "line": true,
+    "filled": true
+  },
+  "lock-laminated": {
+    "line": true,
+    "filled": true
+  },
+  "lock-laminated-open": {
+    "line": true,
+    "filled": true
+  },
+  "lock-open": {
+    "line": true,
+    "filled": true
+  },
+  "lock-simple": {
+    "line": true,
+    "filled": true
+  },
+  "lock-simple-open": {
+    "line": true,
+    "filled": true
+  },
+  "password": {
+    "line": true,
+    "filled": true
+  },
+  "prohibit": {
+    "line": true,
+    "filled": true
+  },
+  "prohibit-inset": {
+    "line": true,
+    "filled": true
+  },
+  "question": {
+    "line": true,
+    "filled": true
+  },
+  "question-mark": {
+    "line": true,
+    "filled": true
+  },
+  "radioactive": {
+    "line": true,
+    "filled": true
+  },
+  "seal": {
+    "line": true,
+    "filled": true
+  },
+  "seal-check": {
+    "line": true,
+    "filled": true
+  },
+  "seal-percent": {
+    "line": true,
+    "filled": true
+  },
+  "seal-question": {
+    "line": true,
+    "filled": true
+  },
+  "seal-warning": {
+    "line": true,
+    "filled": true
+  },
+  "security-camera": {
+    "line": true,
+    "filled": true
+  },
+  "shield": {
+    "line": true,
+    "filled": true
+  },
+  "shield-check": {
+    "line": true,
+    "filled": true
+  },
+  "shield-checkered": {
+    "line": true,
+    "filled": true
+  },
+  "shield-chevron": {
+    "line": true,
+    "filled": true
+  },
+  "shield-plus": {
+    "line": true,
+    "filled": true
+  },
+  "shield-slash": {
+    "line": true,
+    "filled": true
+  },
+  "shield-star": {
+    "line": true,
+    "filled": true
+  },
+  "shield-warning": {
+    "line": true,
+    "filled": true
+  },
+  "siren": {
+    "line": true,
+    "filled": true
+  },
+  "vault": {
+    "line": true,
+    "filled": true
+  },
+  "wall": {
+    "line": true,
+    "filled": true
+  },
+  "warning": {
+    "line": true,
+    "filled": true
+  },
+  "warning-circle": {
+    "line": true,
+    "filled": true
+  },
+  "warning-diamond": {
+    "line": true,
+    "filled": true
+  },
+  "warning-octagon": {
+    "line": true,
+    "filled": true
+  }
+}

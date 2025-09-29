@@ -1,0 +1,534 @@
+{
+  "align-bottom": {
+    "line": true,
+    "filled": true
+  },
+  "align-bottom-simple": {
+    "line": true,
+    "filled": true
+  },
+  "align-center-horizontal": {
+    "line": true,
+    "filled": true
+  },
+  "align-center-horizontal-simple": {
+    "line": true,
+    "filled": true
+  },
+  "align-center-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "align-center-vertical-simple": {
+    "line": true,
+    "filled": true
+  },
+  "align-left": {
+    "line": true,
+    "filled": true
+  },
+  "align-left-simple": {
+    "line": true,
+    "filled": true
+  },
+  "align-right": {
+    "line": true,
+    "filled": true
+  },
+  "align-right-simple": {
+    "line": true,
+    "filled": true
+  },
+  "align-top": {
+    "line": true,
+    "filled": true
+  },
+  "align-top-simple": {
+    "line": true,
+    "filled": true
+  },
+  "angle": {
+    "line": true,
+    "filled": true
+  },
+  "bezier-curve": {
+    "line": true,
+    "filled": true
+  },
+  "blueprint": {
+    "line": true,
+    "filled": true
+  },
+  "bounding-box": {
+    "line": true,
+    "filled": true
+  },
+  "circle": {
+    "line": true,
+    "filled": true
+  },
+  "circle-dashed": {
+    "line": true,
+    "filled": true
+  },
+  "circle-half": {
+    "line": true,
+    "filled": true
+  },
+  "circle-half-tilt": {
+    "line": true,
+    "filled": true
+  },
+  "circle-notch": {
+    "line": true,
+    "filled": true
+  },
+  "circles-four": {
+    "line": true,
+    "filled": true
+  },
+  "circles-three": {
+    "line": true,
+    "filled": true
+  },
+  "circles-three-plus": {
+    "line": true,
+    "filled": true
+  },
+  "columns": {
+    "line": true,
+    "filled": true
+  },
+  "columns-plus-left": {
+    "line": true,
+    "filled": true
+  },
+  "columns-plus-right": {
+    "line": true,
+    "filled": true
+  },
+  "compass-tool": {
+    "line": true,
+    "filled": true
+  },
+  "crop": {
+    "line": true,
+    "filled": true
+  },
+  "cube": {
+    "line": true,
+    "filled": true
+  },
+  "cube-transparent": {
+    "line": true,
+    "filled": true
+  },
+  "cylinder": {
+    "line": true,
+    "filled": true
+  },
+  "diamonds-four": {
+    "line": true,
+    "filled": true
+  },
+  "drop-half": {
+    "line": true,
+    "filled": true
+  },
+  "drop-half-bottom": {
+    "line": true,
+    "filled": true
+  },
+  "drop-slash": {
+    "line": true,
+    "filled": true
+  },
+  "eraser": {
+    "line": true,
+    "filled": true
+  },
+  "exclude": {
+    "line": true,
+    "filled": true
+  },
+  "exclude-square": {
+    "line": true,
+    "filled": true
+  },
+  "eye": {
+    "line": true,
+    "filled": true
+  },
+  "eye-closed": {
+    "line": true,
+    "filled": true
+  },
+  "eye-slash": {
+    "line": true,
+    "filled": true
+  },
+  "eyedropper": {
+    "line": true,
+    "filled": true
+  },
+  "eyedropper-sample": {
+    "line": true,
+    "filled": true
+  },
+  "flip-horizontal": {
+    "line": true,
+    "filled": true
+  },
+  "flip-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "flow-arrow": {
+    "line": true,
+    "filled": true
+  },
+  "gear-fine": {
+    "line": true,
+    "filled": true
+  },
+  "gradient": {
+    "line": true,
+    "filled": true
+  },
+  "grid-four": {
+    "line": true,
+    "filled": true
+  },
+  "grid-nine": {
+    "line": true,
+    "filled": true
+  },
+  "hexagon": {
+    "line": true,
+    "filled": true
+  },
+  "highlighter": {
+    "line": true,
+    "filled": true
+  },
+  "highlighter-circle": {
+    "line": true,
+    "filled": true
+  },
+  "intersect": {
+    "line": true,
+    "filled": true
+  },
+  "intersect-square": {
+    "line": true,
+    "filled": true
+  },
+  "intersect-three": {
+    "line": true,
+    "filled": true
+  },
+  "lasso": {
+    "line": true,
+    "filled": true
+  },
+  "layout": {
+    "line": true,
+    "filled": true
+  },
+  "line-segment": {
+    "line": true,
+    "filled": true
+  },
+  "line-segments": {
+    "line": true,
+    "filled": true
+  },
+  "line-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "magic-wand": {
+    "line": true,
+    "filled": true
+  },
+  "marker-circle": {
+    "line": true,
+    "filled": true
+  },
+  "notches": {
+    "line": true,
+    "filled": true
+  },
+  "octagon": {
+    "line": true,
+    "filled": true
+  },
+  "paint-brush": {
+    "line": true,
+    "filled": true
+  },
+  "paint-brush-broad": {
+    "line": true,
+    "filled": true
+  },
+  "paint-brush-household": {
+    "line": true,
+    "filled": true
+  },
+  "paint-bucket": {
+    "line": true,
+    "filled": true
+  },
+  "paint-roller": {
+    "line": true,
+    "filled": true
+  },
+  "palette": {
+    "line": true,
+    "filled": true
+  },
+  "parallelogram": {
+    "line": true,
+    "filled": true
+  },
+  "pen": {
+    "line": true,
+    "filled": true
+  },
+  "pen-nib": {
+    "line": true,
+    "filled": true
+  },
+  "pen-nib-straight": {
+    "line": true,
+    "filled": true
+  },
+  "pencil": {
+    "line": true,
+    "filled": true
+  },
+  "pencil-circle": {
+    "line": true,
+    "filled": true
+  },
+  "pencil-line": {
+    "line": true,
+    "filled": true
+  },
+  "pencil-ruler": {
+    "line": true,
+    "filled": true
+  },
+  "pencil-simple": {
+    "line": true,
+    "filled": true
+  },
+  "pencil-simple-line": {
+    "line": true,
+    "filled": true
+  },
+  "pencil-simple-slash": {
+    "line": true,
+    "filled": true
+  },
+  "pencil-slash": {
+    "line": true,
+    "filled": true
+  },
+  "pentagon": {
+    "line": true,
+    "filled": true
+  },
+  "pentagram": {
+    "line": true,
+    "filled": true
+  },
+  "perspective": {
+    "line": true,
+    "filled": true
+  },
+  "placeholder": {
+    "line": true,
+    "filled": true
+  },
+  "polygon": {
+    "line": true,
+    "filled": true
+  },
+  "rectangle": {
+    "line": true,
+    "filled": true
+  },
+  "rectangle-dashed": {
+    "line": true,
+    "filled": true
+  },
+  "resize": {
+    "line": true,
+    "filled": true
+  },
+  "rows": {
+    "line": true,
+    "filled": true
+  },
+  "rows-plus-bottom": {
+    "line": true,
+    "filled": true
+  },
+  "rows-plus-top": {
+    "line": true,
+    "filled": true
+  },
+  "ruler": {
+    "line": true,
+    "filled": true
+  },
+  "scissors": {
+    "line": true,
+    "filled": true
+  },
+  "scribble": {
+    "line": true,
+    "filled": true
+  },
+  "scribble-loop": {
+    "line": true,
+    "filled": true
+  },
+  "selection": {
+    "line": true,
+    "filled": true
+  },
+  "selection-all": {
+    "line": true,
+    "filled": true
+  },
+  "selection-background": {
+    "line": true,
+    "filled": true
+  },
+  "selection-foreground": {
+    "line": true,
+    "filled": true
+  },
+  "selection-inverse": {
+    "line": true,
+    "filled": true
+  },
+  "selection-plus": {
+    "line": true,
+    "filled": true
+  },
+  "selection-slash": {
+    "line": true,
+    "filled": true
+  },
+  "shapes": {
+    "line": true,
+    "filled": true
+  },
+  "sidebar": {
+    "line": true,
+    "filled": true
+  },
+  "sidebar-simple": {
+    "line": true,
+    "filled": true
+  },
+  "sphere": {
+    "line": true,
+    "filled": true
+  },
+  "split-horizontal": {
+    "line": true,
+    "filled": true
+  },
+  "split-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "spray-bottle": {
+    "line": true,
+    "filled": true
+  },
+  "square": {
+    "line": true,
+    "filled": true
+  },
+  "square-half": {
+    "line": true,
+    "filled": true
+  },
+  "square-half-bottom": {
+    "line": true,
+    "filled": true
+  },
+  "square-split-horizontal": {
+    "line": true,
+    "filled": true
+  },
+  "square-split-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "squares-four": {
+    "line": true,
+    "filled": true
+  },
+  "stack": {
+    "line": true,
+    "filled": true
+  },
+  "stack-minus": {
+    "line": true,
+    "filled": true
+  },
+  "stack-plus": {
+    "line": true,
+    "filled": true
+  },
+  "stack-simple": {
+    "line": true,
+    "filled": true
+  },
+  "stamp": {
+    "line": true,
+    "filled": true
+  },
+  "subtract": {
+    "line": true,
+    "filled": true
+  },
+  "subtract-square": {
+    "line": true,
+    "filled": true
+  },
+  "swatches": {
+    "line": true,
+    "filled": true
+  },
+  "text-aunderline": {
+    "line": true,
+    "filled": true
+  },
+  "triangle": {
+    "line": true,
+    "filled": true
+  },
+  "triangle-dashed": {
+    "line": true,
+    "filled": true
+  },
+  "unite": {
+    "line": true,
+    "filled": true
+  },
+  "unite-square": {
+    "line": true,
+    "filled": true
+  },
+  "vignette": {
+    "line": true,
+    "filled": true
+  }
+}

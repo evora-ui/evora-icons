@@ -1,12 +1,13 @@
 {
   "name": "@evora-ui/icons-vue",
   "version": "0.1.5",
-  "description": "Evora icon components for Vue 3",
+  "description": "1500+ free SVG icon components for Vue 3 — line & filled variants. Tree‑shakable, typed, CSP/SSR‑friendly.",
   "type": "module",
   "sideEffects": false,
   "types": "dist/index.d.ts",
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "author": "Evora UI Authors",
   "typesVersions": {
     "*": {
       "icons": [
@@ -34,10 +35,17 @@
       "import": "./dist/icons/filled/index.js",
       "types": "./dist/icons/filled/index.d.ts"
     },
+    "./icons/line/async": {
+      "import": "./dist/icons/line/async.js"
+    },
+    "./icons/filled/async": {
+      "import": "./dist/icons/filled/async.js"
+    },
     "./icons/names": {
       "import": "./dist/icons/names.js",
       "types": "./dist/icons/names.d.ts"
-    }
+    },
+    "./package.json": "./package.json"
   },
   "files": [
     "dist",
@@ -76,20 +84,25 @@
     "icons",
     "svg",
     "components",
+    "line icons",
+    "filled icons",
     "evora",
     "evora-ui",
     "vue3",
-    "vue-icons"
+    "vue-icons",
+    "icon set",
+    "free icons"
   ],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/evora-ui/evora-icons.git"
+    "url": "git+https://github.com/evora-ui/evora-icons.git",
+    "directory": "packages/vue"
   },
   "bugs": {
     "url": "https://github.com/evora-ui/evora-icons/issues"
   },
-  "homepage": "https://github.com/evora-ui/evora-icons#readme",
+  "homepage": "https://github.com/evora-ui/evora-icons/tree/main/packages/vue#readme",
   "engines": {
     "node": ">=18"
   }

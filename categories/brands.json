@@ -1,0 +1,298 @@
+{
+  "coda-logo": {
+    "line": true,
+    "filled": true
+  },
+  "codepen-logo": {
+    "line": true,
+    "filled": true
+  },
+  "codesandbox-logo": {
+    "line": true,
+    "filled": true
+  },
+  "dev-to-logo": {
+    "line": true,
+    "filled": true
+  },
+  "discord-logo": {
+    "line": true,
+    "filled": true
+  },
+  "dribbble-logo": {
+    "line": true,
+    "filled": true
+  },
+  "dropbox-logo": {
+    "line": true,
+    "filled": true
+  },
+  "facebook-logo": {
+    "line": true,
+    "filled": true
+  },
+  "fediverse-logo": {
+    "line": true,
+    "filled": true
+  },
+  "figma-logo": {
+    "line": true,
+    "filled": true
+  },
+  "framer-logo": {
+    "line": true,
+    "filled": true
+  },
+  "github-logo": {
+    "line": true,
+    "filled": true
+  },
+  "gitlab-logo": {
+    "line": true,
+    "filled": true
+  },
+  "gitlab-logo-simple": {
+    "line": true,
+    "filled": true
+  },
+  "goodreads-logo": {
+    "line": true,
+    "filled": true
+  },
+  "google-chrome-logo": {
+    "line": true,
+    "filled": true
+  },
+  "google-drive-logo": {
+    "line": true,
+    "filled": true
+  },
+  "google-logo": {
+    "line": true,
+    "filled": true
+  },
+  "google-photos-logo": {
+    "line": true,
+    "filled": true
+  },
+  "google-play-logo": {
+    "line": true,
+    "filled": true
+  },
+  "google-podcasts-logo": {
+    "line": true,
+    "filled": true
+  },
+  "instagram-logo": {
+    "line": true,
+    "filled": true
+  },
+  "lastfm-logo": {
+    "line": true,
+    "filled": true
+  },
+  "linkedin-logo": {
+    "line": true,
+    "filled": true
+  },
+  "linktree-logo": {
+    "line": true,
+    "filled": true
+  },
+  "linux-logo": {
+    "line": true,
+    "filled": true
+  },
+  "mastodon-logo": {
+    "line": true,
+    "filled": true
+  },
+  "medium-logo": {
+    "line": true,
+    "filled": true
+  },
+  "messenger-logo": {
+    "line": true,
+    "filled": true
+  },
+  "meta-logo": {
+    "line": true,
+    "filled": true
+  },
+  "microsoft-excel-logo": {
+    "line": true,
+    "filled": true
+  },
+  "microsoft-outlook-logo": {
+    "line": true,
+    "filled": true
+  },
+  "microsoft-powerpoint-logo": {
+    "line": true,
+    "filled": true
+  },
+  "microsoft-teams-logo": {
+    "line": true,
+    "filled": true
+  },
+  "microsoft-word-logo": {
+    "line": true,
+    "filled": true
+  },
+  "notion-logo": {
+    "line": true,
+    "filled": true
+  },
+  "ny-times-logo": {
+    "line": true,
+    "filled": true
+  },
+  "open-ai-logo": {
+    "line": true,
+    "filled": true
+  },
+  "patreon-logo": {
+    "line": true,
+    "filled": true
+  },
+  "paypal-logo": {
+    "line": true,
+    "filled": true
+  },
+  "phosphor-logo": {
+    "line": true,
+    "filled": true
+  },
+  "pinterest-logo": {
+    "line": true,
+    "filled": true
+  },
+  "read-cv-logo": {
+    "line": true,
+    "filled": true
+  },
+  "reddit-logo": {
+    "line": true,
+    "filled": true
+  },
+  "replit-logo": {
+    "line": true,
+    "filled": true
+  },
+  "sketch-logo": {
+    "line": true,
+    "filled": true
+  },
+  "skype-logo": {
+    "line": true,
+    "filled": true
+  },
+  "slack-logo": {
+    "line": true,
+    "filled": true
+  },
+  "snapchat-logo": {
+    "line": true,
+    "filled": true
+  },
+  "soundcloud-logo": {
+    "line": true,
+    "filled": true
+  },
+  "spotify-logo": {
+    "line": true,
+    "filled": true
+  },
+  "square-logo": {
+    "line": true,
+    "filled": true
+  },
+  "stack-overflow-logo": {
+    "line": true,
+    "filled": true
+  },
+  "steam-logo": {
+    "line": true,
+    "filled": true
+  },
+  "stripe-logo": {
+    "line": true,
+    "filled": true
+  },
+  "telegram-logo": {
+    "line": true,
+    "filled": true
+  },
+  "threads-logo": {
+    "line": true,
+    "filled": true
+  },
+  "tidal-logo": {
+    "line": true,
+    "filled": true
+  },
+  "tiktok-logo": {
+    "line": true,
+    "filled": true
+  },
+  "tumblr-logo": {
+    "line": true,
+    "filled": true
+  },
+  "twitch-logo": {
+    "line": true,
+    "filled": true
+  },
+  "twitter-logo": {
+    "line": true,
+    "filled": true
+  },
+  "wechat-logo": {
+    "line": true,
+    "filled": true
+  },
+  "whatsapp-logo": {
+    "line": true,
+    "filled": true
+  },
+  "windows-logo": {
+    "line": true,
+    "filled": true
+  },
+  "xlogo": {
+    "line": true,
+    "filled": true
+  },
+  "youtube-logo": {
+    "line": true,
+    "filled": true
+  },
+  "amazon-logo": {
+    "line": false,
+    "filled": true
+  },
+  "android-logo": {
+    "line": false,
+    "filled": true
+  },
+  "angular-logo": {
+    "line": false,
+    "filled": true
+  },
+  "app-store-logo": {
+    "line": false,
+    "filled": true
+  },
+  "apple-logo": {
+    "line": false,
+    "filled": true
+  },
+  "apple-podcasts-logo": {
+    "line": false,
+    "filled": true
+  },
+  "behance-logo": {
+    "line": false,
+    "filled": true
+  }
+}

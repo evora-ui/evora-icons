@@ -1,0 +1,110 @@
+{
+  "ambulance": {
+    "line": true,
+    "filled": true
+  },
+  "asclepius": {
+    "line": true,
+    "filled": true
+  },
+  "bandaids": {
+    "line": true,
+    "filled": true
+  },
+  "barbell": {
+    "line": true,
+    "filled": true
+  },
+  "bed": {
+    "line": true,
+    "filled": true
+  },
+  "brain": {
+    "line": true,
+    "filled": true
+  },
+  "dna": {
+    "line": true,
+    "filled": true
+  },
+  "face-mask": {
+    "line": true,
+    "filled": true
+  },
+  "fire-truck": {
+    "line": true,
+    "filled": true
+  },
+  "first-aid": {
+    "line": true,
+    "filled": true
+  },
+  "first-aid-kit": {
+    "line": true,
+    "filled": true
+  },
+  "flask": {
+    "line": true,
+    "filled": true
+  },
+  "hand-heart": {
+    "line": true,
+    "filled": true
+  },
+  "hand-soap": {
+    "line": true,
+    "filled": true
+  },
+  "heartbeat": {
+    "line": true,
+    "filled": true
+  },
+  "lifebuoy": {
+    "line": true,
+    "filled": true
+  },
+  "microscope": {
+    "line": true,
+    "filled": true
+  },
+  "pill": {
+    "line": true,
+    "filled": true
+  },
+  "prescription": {
+    "line": true,
+    "filled": true
+  },
+  "pulse": {
+    "line": true,
+    "filled": true
+  },
+  "stethoscope": {
+    "line": true,
+    "filled": true
+  },
+  "syringe": {
+    "line": true,
+    "filled": true
+  },
+  "test-tube": {
+    "line": true,
+    "filled": true
+  },
+  "toilet": {
+    "line": true,
+    "filled": true
+  },
+  "toilet-paper": {
+    "line": true,
+    "filled": true
+  },
+  "tooth": {
+    "line": true,
+    "filled": true
+  },
+  "virus": {
+    "line": true,
+    "filled": true
+  }
+}

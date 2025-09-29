@@ -1,0 +1,630 @@
+{
+  "app-window": {
+    "line": true,
+    "filled": true
+  },
+  "backspace": {
+    "line": true,
+    "filled": true
+  },
+  "battery-charging": {
+    "line": true,
+    "filled": true
+  },
+  "battery-charging-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "battery-empty": {
+    "line": true,
+    "filled": true
+  },
+  "battery-full": {
+    "line": true,
+    "filled": true
+  },
+  "battery-high": {
+    "line": true,
+    "filled": true
+  },
+  "battery-low": {
+    "line": true,
+    "filled": true
+  },
+  "battery-medium": {
+    "line": true,
+    "filled": true
+  },
+  "battery-plus": {
+    "line": true,
+    "filled": true
+  },
+  "battery-plus-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "battery-vertical-empty": {
+    "line": true,
+    "filled": true
+  },
+  "battery-vertical-full": {
+    "line": true,
+    "filled": true
+  },
+  "battery-vertical-high": {
+    "line": true,
+    "filled": true
+  },
+  "battery-vertical-low": {
+    "line": true,
+    "filled": true
+  },
+  "battery-vertical-medium": {
+    "line": true,
+    "filled": true
+  },
+  "battery-warning": {
+    "line": true,
+    "filled": true
+  },
+  "battery-warning-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "bell": {
+    "line": true,
+    "filled": true
+  },
+  "bell-ringing": {
+    "line": true,
+    "filled": true
+  },
+  "bell-simple": {
+    "line": true,
+    "filled": true
+  },
+  "bell-simple-ringing": {
+    "line": true,
+    "filled": true
+  },
+  "bell-simple-slash": {
+    "line": true,
+    "filled": true
+  },
+  "bell-simple-z": {
+    "line": true,
+    "filled": true
+  },
+  "bell-slash": {
+    "line": true,
+    "filled": true
+  },
+  "bell-z": {
+    "line": true,
+    "filled": true
+  },
+  "bluetooth": {
+    "line": true,
+    "filled": true
+  },
+  "bluetooth-connected": {
+    "line": true,
+    "filled": true
+  },
+  "bluetooth-slash": {
+    "line": true,
+    "filled": true
+  },
+  "bluetooth-x": {
+    "line": true,
+    "filled": true
+  },
+  "browser": {
+    "line": true,
+    "filled": true
+  },
+  "browsers": {
+    "line": true,
+    "filled": true
+  },
+  "cell-signal-full": {
+    "line": true,
+    "filled": true
+  },
+  "cell-signal-high": {
+    "line": true,
+    "filled": true
+  },
+  "cell-signal-low": {
+    "line": true,
+    "filled": true
+  },
+  "cell-signal-medium": {
+    "line": true,
+    "filled": true
+  },
+  "cell-signal-none": {
+    "line": true,
+    "filled": true
+  },
+  "cell-signal-slash": {
+    "line": true,
+    "filled": true
+  },
+  "cell-signal-x": {
+    "line": true,
+    "filled": true
+  },
+  "check": {
+    "line": true,
+    "filled": true
+  },
+  "check-circle": {
+    "line": true,
+    "filled": true
+  },
+  "check-fat": {
+    "line": true,
+    "filled": true
+  },
+  "check-square": {
+    "line": true,
+    "filled": true
+  },
+  "check-square-offset": {
+    "line": true,
+    "filled": true
+  },
+  "checks": {
+    "line": true,
+    "filled": true
+  },
+  "circuitry": {
+    "line": true,
+    "filled": true
+  },
+  "cloud-arrow-down": {
+    "line": true,
+    "filled": true
+  },
+  "cloud-arrow-up": {
+    "line": true,
+    "filled": true
+  },
+  "cloud-check": {
+    "line": true,
+    "filled": true
+  },
+  "cloud-slash": {
+    "line": true,
+    "filled": true
+  },
+  "cloud-warning": {
+    "line": true,
+    "filled": true
+  },
+  "cloud-x": {
+    "line": true,
+    "filled": true
+  },
+  "command": {
+    "line": true,
+    "filled": true
+  },
+  "computer-tower": {
+    "line": true,
+    "filled": true
+  },
+  "control": {
+    "line": true,
+    "filled": true
+  },
+  "cursor": {
+    "line": true,
+    "filled": true
+  },
+  "cursor-click": {
+    "line": true,
+    "filled": true
+  },
+  "desktop": {
+    "line": true,
+    "filled": true
+  },
+  "desktop-tower": {
+    "line": true,
+    "filled": true
+  },
+  "device-mobile": {
+    "line": true,
+    "filled": true
+  },
+  "device-mobile-camera": {
+    "line": true,
+    "filled": true
+  },
+  "device-mobile-slash": {
+    "line": true,
+    "filled": true
+  },
+  "device-mobile-speaker": {
+    "line": true,
+    "filled": true
+  },
+  "device-rotate": {
+    "line": true,
+    "filled": true
+  },
+  "device-tablet": {
+    "line": true,
+    "filled": true
+  },
+  "device-tablet-camera": {
+    "line": true,
+    "filled": true
+  },
+  "device-tablet-speaker": {
+    "line": true,
+    "filled": true
+  },
+  "devices": {
+    "line": true,
+    "filled": true
+  },
+  "dot": {
+    "line": true,
+    "filled": true
+  },
+  "dot-outline": {
+    "line": true,
+    "filled": true
+  },
+  "dots-nine": {
+    "line": true,
+    "filled": true
+  },
+  "dots-six": {
+    "line": true,
+    "filled": true
+  },
+  "dots-six-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "dots-three": {
+    "line": true,
+    "filled": true
+  },
+  "dots-three-circle": {
+    "line": true,
+    "filled": true
+  },
+  "dots-three-circle-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "dots-three-outline": {
+    "line": true,
+    "filled": true
+  },
+  "dots-three-outline-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "dots-three-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "download": {
+    "line": true,
+    "filled": true
+  },
+  "download-simple": {
+    "line": true,
+    "filled": true
+  },
+  "flashlight": {
+    "line": true,
+    "filled": true
+  },
+  "gauge": {
+    "line": true,
+    "filled": true
+  },
+  "gear": {
+    "line": true,
+    "filled": true
+  },
+  "gear-six": {
+    "line": true,
+    "filled": true
+  },
+  "hand-swipe-left": {
+    "line": true,
+    "filled": true
+  },
+  "hand-swipe-right": {
+    "line": true,
+    "filled": true
+  },
+  "hand-tap": {
+    "line": true,
+    "filled": true
+  },
+  "hard-drive": {
+    "line": true,
+    "filled": true
+  },
+  "hard-drives": {
+    "line": true,
+    "filled": true
+  },
+  "key-return": {
+    "line": true,
+    "filled": true
+  },
+  "keyboard": {
+    "line": true,
+    "filled": true
+  },
+  "laptop": {
+    "line": true,
+    "filled": true
+  },
+  "lightbulb": {
+    "line": true,
+    "filled": true
+  },
+  "lightbulb-filament": {
+    "line": true,
+    "filled": true
+  },
+  "lightning": {
+    "line": true,
+    "filled": true
+  },
+  "lightning-a": {
+    "line": true,
+    "filled": true
+  },
+  "lightning-slash": {
+    "line": true,
+    "filled": true
+  },
+  "link": {
+    "line": true,
+    "filled": true
+  },
+  "link-break": {
+    "line": true,
+    "filled": true
+  },
+  "link-simple": {
+    "line": true,
+    "filled": true
+  },
+  "link-simple-break": {
+    "line": true,
+    "filled": true
+  },
+  "link-simple-horizontal": {
+    "line": true,
+    "filled": true
+  },
+  "link-simple-horizontal-break": {
+    "line": true,
+    "filled": true
+  },
+  "list-heart": {
+    "line": true,
+    "filled": true
+  },
+  "list-magnifying-glass": {
+    "line": true,
+    "filled": true
+  },
+  "list-star": {
+    "line": true,
+    "filled": true
+  },
+  "magnifying-glass": {
+    "line": true,
+    "filled": true
+  },
+  "magnifying-glass-minus": {
+    "line": true,
+    "filled": true
+  },
+  "magnifying-glass-plus": {
+    "line": true,
+    "filled": true
+  },
+  "memory": {
+    "line": true,
+    "filled": true
+  },
+  "monitor": {
+    "line": true,
+    "filled": true
+  },
+  "monitor-arrow-up": {
+    "line": true,
+    "filled": true
+  },
+  "monitor-play": {
+    "line": true,
+    "filled": true
+  },
+  "mouse": {
+    "line": true,
+    "filled": true
+  },
+  "mouse-left-click": {
+    "line": true,
+    "filled": true
+  },
+  "mouse-middle-click": {
+    "line": true,
+    "filled": true
+  },
+  "mouse-right-click": {
+    "line": true,
+    "filled": true
+  },
+  "mouse-scroll": {
+    "line": true,
+    "filled": true
+  },
+  "mouse-simple": {
+    "line": true,
+    "filled": true
+  },
+  "network": {
+    "line": true,
+    "filled": true
+  },
+  "network-slash": {
+    "line": true,
+    "filled": true
+  },
+  "network-x": {
+    "line": true,
+    "filled": true
+  },
+  "notification": {
+    "line": true,
+    "filled": true
+  },
+  "nut": {
+    "line": true,
+    "filled": true
+  },
+  "option": {
+    "line": true,
+    "filled": true
+  },
+  "plug": {
+    "line": true,
+    "filled": true
+  },
+  "plug-charging": {
+    "line": true,
+    "filled": true
+  },
+  "plugs": {
+    "line": true,
+    "filled": true
+  },
+  "plugs-connected": {
+    "line": true,
+    "filled": true
+  },
+  "power": {
+    "line": true,
+    "filled": true
+  },
+  "qr-code": {
+    "line": true,
+    "filled": true
+  },
+  "radio-button": {
+    "line": true,
+    "filled": true
+  },
+  "scan": {
+    "line": true,
+    "filled": true
+  },
+  "scan-smiley": {
+    "line": true,
+    "filled": true
+  },
+  "sign-in": {
+    "line": true,
+    "filled": true
+  },
+  "sign-out": {
+    "line": true,
+    "filled": true
+  },
+  "sim-card": {
+    "line": true,
+    "filled": true
+  },
+  "speedometer": {
+    "line": true,
+    "filled": true
+  },
+  "spinner": {
+    "line": true,
+    "filled": true
+  },
+  "spinner-ball": {
+    "line": true,
+    "filled": true
+  },
+  "spinner-gap": {
+    "line": true,
+    "filled": true
+  },
+  "swap": {
+    "line": true,
+    "filled": true
+  },
+  "tabs": {
+    "line": true,
+    "filled": true
+  },
+  "toggle-left": {
+    "line": true,
+    "filled": true
+  },
+  "toggle-right": {
+    "line": true,
+    "filled": true
+  },
+  "tree-view": {
+    "line": true,
+    "filled": true
+  },
+  "upload": {
+    "line": true,
+    "filled": true
+  },
+  "upload-simple": {
+    "line": true,
+    "filled": true
+  },
+  "usb": {
+    "line": true,
+    "filled": true
+  },
+  "vibrate": {
+    "line": true,
+    "filled": true
+  },
+  "wifi-high": {
+    "line": true,
+    "filled": true
+  },
+  "wifi-low": {
+    "line": true,
+    "filled": true
+  },
+  "wifi-medium": {
+    "line": true,
+    "filled": true
+  },
+  "wifi-none": {
+    "line": true,
+    "filled": true
+  },
+  "wifi-slash": {
+    "line": true,
+    "filled": true
+  },
+  "wifi-x": {
+    "line": true,
+    "filled": true
+  }
+}

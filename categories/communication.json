@@ -1,0 +1,302 @@
+{
+  "address-book": {
+    "line": true,
+    "filled": true
+  },
+  "address-book-tabs": {
+    "line": true,
+    "filled": true
+  },
+  "asterisk": {
+    "line": true,
+    "filled": true
+  },
+  "asterisk-simple": {
+    "line": true,
+    "filled": true
+  },
+  "at": {
+    "line": true,
+    "filled": true
+  },
+  "broadcast": {
+    "line": true,
+    "filled": true
+  },
+  "cell-tower": {
+    "line": true,
+    "filled": true
+  },
+  "chat": {
+    "line": true,
+    "filled": true
+  },
+  "chat-centered": {
+    "line": true,
+    "filled": true
+  },
+  "chat-centered-dots": {
+    "line": true,
+    "filled": true
+  },
+  "chat-centered-slash": {
+    "line": true,
+    "filled": true
+  },
+  "chat-centered-text": {
+    "line": true,
+    "filled": true
+  },
+  "chat-circle": {
+    "line": true,
+    "filled": true
+  },
+  "chat-circle-dots": {
+    "line": true,
+    "filled": true
+  },
+  "chat-circle-slash": {
+    "line": true,
+    "filled": true
+  },
+  "chat-circle-text": {
+    "line": true,
+    "filled": true
+  },
+  "chat-dots": {
+    "line": true,
+    "filled": true
+  },
+  "chat-slash": {
+    "line": true,
+    "filled": true
+  },
+  "chat-teardrop": {
+    "line": true,
+    "filled": true
+  },
+  "chat-teardrop-dots": {
+    "line": true,
+    "filled": true
+  },
+  "chat-teardrop-slash": {
+    "line": true,
+    "filled": true
+  },
+  "chat-teardrop-text": {
+    "line": true,
+    "filled": true
+  },
+  "chat-text": {
+    "line": true,
+    "filled": true
+  },
+  "chats": {
+    "line": true,
+    "filled": true
+  },
+  "chats-circle": {
+    "line": true,
+    "filled": true
+  },
+  "chats-teardrop": {
+    "line": true,
+    "filled": true
+  },
+  "cross": {
+    "line": true,
+    "filled": true
+  },
+  "envelope": {
+    "line": true,
+    "filled": true
+  },
+  "envelope-open": {
+    "line": true,
+    "filled": true
+  },
+  "envelope-simple": {
+    "line": true,
+    "filled": true
+  },
+  "envelope-simple-open": {
+    "line": true,
+    "filled": true
+  },
+  "export": {
+    "line": true,
+    "filled": true
+  },
+  "hash": {
+    "line": true,
+    "filled": true
+  },
+  "hash-straight": {
+    "line": true,
+    "filled": true
+  },
+  "letter-circle-h": {
+    "line": true,
+    "filled": true
+  },
+  "letter-circle-p": {
+    "line": true,
+    "filled": true
+  },
+  "letter-circle-v": {
+    "line": true,
+    "filled": true
+  },
+  "mailbox": {
+    "line": true,
+    "filled": true
+  },
+  "matrix-logo": {
+    "line": true,
+    "filled": true
+  },
+  "megaphone": {
+    "line": true,
+    "filled": true
+  },
+  "megaphone-simple": {
+    "line": true,
+    "filled": true
+  },
+  "numpad": {
+    "line": true,
+    "filled": true
+  },
+  "paper-plane": {
+    "line": true,
+    "filled": true
+  },
+  "paper-plane-right": {
+    "line": true,
+    "filled": true
+  },
+  "paper-plane-tilt": {
+    "line": true,
+    "filled": true
+  },
+  "peace": {
+    "line": true,
+    "filled": true
+  },
+  "phone": {
+    "line": true,
+    "filled": true
+  },
+  "phone-call": {
+    "line": true,
+    "filled": true
+  },
+  "phone-disconnect": {
+    "line": true,
+    "filled": true
+  },
+  "phone-incoming": {
+    "line": true,
+    "filled": true
+  },
+  "phone-list": {
+    "line": true,
+    "filled": true
+  },
+  "phone-outgoing": {
+    "line": true,
+    "filled": true
+  },
+  "phone-pause": {
+    "line": true,
+    "filled": true
+  },
+  "phone-plus": {
+    "line": true,
+    "filled": true
+  },
+  "phone-slash": {
+    "line": true,
+    "filled": true
+  },
+  "phone-transfer": {
+    "line": true,
+    "filled": true
+  },
+  "phone-x": {
+    "line": true,
+    "filled": true
+  },
+  "quotes": {
+    "line": true,
+    "filled": true
+  },
+  "radio": {
+    "line": true,
+    "filled": true
+  },
+  "rss": {
+    "line": true,
+    "filled": true
+  },
+  "rss-simple": {
+    "line": true,
+    "filled": true
+  },
+  "share": {
+    "line": true,
+    "filled": true
+  },
+  "share-fat": {
+    "line": true,
+    "filled": true
+  },
+  "share-network": {
+    "line": true,
+    "filled": true
+  },
+  "signature": {
+    "line": true,
+    "filled": true
+  },
+  "star": {
+    "line": true,
+    "filled": true
+  },
+  "star-and-crescent": {
+    "line": true,
+    "filled": true
+  },
+  "star-half": {
+    "line": true,
+    "filled": true
+  },
+  "star-of-david": {
+    "line": true,
+    "filled": true
+  },
+  "sticker": {
+    "line": true,
+    "filled": true
+  },
+  "thumbs-down": {
+    "line": true,
+    "filled": true
+  },
+  "thumbs-up": {
+    "line": true,
+    "filled": true
+  },
+  "translate": {
+    "line": true,
+    "filled": true
+  },
+  "voicemail": {
+    "line": true,
+    "filled": true
+  },
+  "yin-yang": {
+    "line": true,
+    "filled": true
+  }
+}

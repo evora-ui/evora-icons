@@ -1,0 +1,114 @@
+{
+  "categories": [
+    {
+      "key": "arrows",
+      "file": "./arrows.json",
+      "count": 121
+    },
+    {
+      "key": "brands",
+      "file": "./brands.json",
+      "count": 74
+    },
+    {
+      "key": "checkmark",
+      "file": "./checkmark.json",
+      "count": 4
+    },
+    {
+      "key": "commerce",
+      "file": "./commerce.json",
+      "count": 176
+    },
+    {
+      "key": "communication",
+      "file": "./communication.json",
+      "count": 75
+    },
+    {
+      "key": "design",
+      "file": "./design.json",
+      "count": 133
+    },
+    {
+      "key": "development",
+      "file": "./development.json",
+      "count": 29
+    },
+    {
+      "key": "education",
+      "file": "./education.json",
+      "count": 19
+    },
+    {
+      "key": "games",
+      "file": "./games.json",
+      "count": 73
+    },
+    {
+      "key": "health-fitness",
+      "file": "./health-fitness.json",
+      "count": 27
+    },
+    {
+      "key": "maps-travel",
+      "file": "./maps-travel.json",
+      "count": 98
+    },
+    {
+      "key": "math-finance",
+      "file": "./math-finance.json",
+      "count": 83
+    },
+    {
+      "key": "media",
+      "file": "./media.json",
+      "count": 111
+    },
+    {
+      "key": "messengers",
+      "file": "./messengers.json",
+      "count": 8
+    },
+    {
+      "key": "office-editing",
+      "file": "./office-editing.json",
+      "count": 131
+    },
+    {
+      "key": "people",
+      "file": "./people.json",
+      "count": 69
+    },
+    {
+      "key": "security-warning",
+      "file": "./security-warning.json",
+      "count": 45
+    },
+    {
+      "key": "social-media",
+      "file": "./social-media.json",
+      "count": 13
+    },
+    {
+      "key": "store",
+      "file": "./store.json",
+      "count": 3
+    },
+    {
+      "key": "system-devices",
+      "file": "./system-devices.json",
+      "count": 157
+    },
+    {
+      "key": "time",
+      "file": "./time.json",
+      "count": 28
+    },
+    {
+      "key": "weather-nature",
+      "file": "./weather-nature.json",
+      "count": 62
+    }
+  ]
+}

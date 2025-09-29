@@ -1,0 +1,34 @@
+{
+  "discord": {
+    "line": true,
+    "filled": false
+  },
+  "google-meet": {
+    "line": true,
+    "filled": false
+  },
+  "imessage": {
+    "line": true,
+    "filled": false
+  },
+  "messenger": {
+    "line": true,
+    "filled": false
+  },
+  "signal": {
+    "line": true,
+    "filled": false
+  },
+  "slack": {
+    "line": true,
+    "filled": false
+  },
+  "telegram": {
+    "line": true,
+    "filled": false
+  },
+  "whatsapp": {
+    "line": true,
+    "filled": false
+  }
+}

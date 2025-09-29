@@ -1,0 +1,446 @@
+{
+  "airplay": {
+    "line": true,
+    "filled": true
+  },
+  "aperture": {
+    "line": true,
+    "filled": true
+  },
+  "article": {
+    "line": true,
+    "filled": true
+  },
+  "article-medium": {
+    "line": true,
+    "filled": true
+  },
+  "article-ny-times": {
+    "line": true,
+    "filled": true
+  },
+  "camera": {
+    "line": true,
+    "filled": true
+  },
+  "camera-plus": {
+    "line": true,
+    "filled": true
+  },
+  "camera-rotate": {
+    "line": true,
+    "filled": true
+  },
+  "camera-slash": {
+    "line": true,
+    "filled": true
+  },
+  "cassette-tape": {
+    "line": true,
+    "filled": true
+  },
+  "closed-captioning": {
+    "line": true,
+    "filled": true
+  },
+  "copyleft": {
+    "line": true,
+    "filled": true
+  },
+  "copyright": {
+    "line": true,
+    "filled": true
+  },
+  "corners-in": {
+    "line": true,
+    "filled": true
+  },
+  "corners-out": {
+    "line": true,
+    "filled": true
+  },
+  "disc": {
+    "line": true,
+    "filled": true
+  },
+  "ear": {
+    "line": true,
+    "filled": true
+  },
+  "ear-slash": {
+    "line": true,
+    "filled": true
+  },
+  "eject": {
+    "line": true,
+    "filled": true
+  },
+  "eject-simple": {
+    "line": true,
+    "filled": true
+  },
+  "equalizer": {
+    "line": true,
+    "filled": true
+  },
+  "faders": {
+    "line": true,
+    "filled": true
+  },
+  "faders-horizontal": {
+    "line": true,
+    "filled": true
+  },
+  "fast-forward": {
+    "line": true,
+    "filled": true
+  },
+  "fast-forward-circle": {
+    "line": true,
+    "filled": true
+  },
+  "film-reel": {
+    "line": true,
+    "filled": true
+  },
+  "film-script": {
+    "line": true,
+    "filled": true
+  },
+  "film-slate": {
+    "line": true,
+    "filled": true
+  },
+  "film-strip": {
+    "line": true,
+    "filled": true
+  },
+  "four-k": {
+    "line": true,
+    "filled": true
+  },
+  "frame-corners": {
+    "line": true,
+    "filled": true
+  },
+  "gif": {
+    "line": true,
+    "filled": true
+  },
+  "guitar": {
+    "line": true,
+    "filled": true
+  },
+  "headphones": {
+    "line": true,
+    "filled": true
+  },
+  "headset": {
+    "line": true,
+    "filled": true
+  },
+  "high-definition": {
+    "line": true,
+    "filled": true
+  },
+  "image": {
+    "line": true,
+    "filled": true
+  },
+  "image-broken": {
+    "line": true,
+    "filled": true
+  },
+  "image-square": {
+    "line": true,
+    "filled": true
+  },
+  "images": {
+    "line": true,
+    "filled": true
+  },
+  "images-square": {
+    "line": true,
+    "filled": true
+  },
+  "metronome": {
+    "line": true,
+    "filled": true
+  },
+  "microphone": {
+    "line": true,
+    "filled": true
+  },
+  "microphone-slash": {
+    "line": true,
+    "filled": true
+  },
+  "microphone-stage": {
+    "line": true,
+    "filled": true
+  },
+  "music-note": {
+    "line": true,
+    "filled": true
+  },
+  "music-note-simple": {
+    "line": true,
+    "filled": true
+  },
+  "music-notes": {
+    "line": true,
+    "filled": true
+  },
+  "music-notes-minus": {
+    "line": true,
+    "filled": true
+  },
+  "music-notes-plus": {
+    "line": true,
+    "filled": true
+  },
+  "music-notes-simple": {
+    "line": true,
+    "filled": true
+  },
+  "newspaper": {
+    "line": true,
+    "filled": true
+  },
+  "newspaper-clipping": {
+    "line": true,
+    "filled": true
+  },
+  "panorama": {
+    "line": true,
+    "filled": true
+  },
+  "pause": {
+    "line": true,
+    "filled": true
+  },
+  "pause-circle": {
+    "line": true,
+    "filled": true
+  },
+  "piano-keys": {
+    "line": true,
+    "filled": true
+  },
+  "picture-in-picture": {
+    "line": true,
+    "filled": true
+  },
+  "play": {
+    "line": true,
+    "filled": true
+  },
+  "play-circle": {
+    "line": true,
+    "filled": true
+  },
+  "play-pause": {
+    "line": true,
+    "filled": true
+  },
+  "playlist": {
+    "line": true,
+    "filled": true
+  },
+  "queue": {
+    "line": true,
+    "filled": true
+  },
+  "record": {
+    "line": true,
+    "filled": true
+  },
+  "repeat": {
+    "line": true,
+    "filled": true
+  },
+  "repeat-once": {
+    "line": true,
+    "filled": true
+  },
+  "rewind": {
+    "line": true,
+    "filled": true
+  },
+  "rewind-circle": {
+    "line": true,
+    "filled": true
+  },
+  "screencast": {
+    "line": true,
+    "filled": true
+  },
+  "shuffle": {
+    "line": true,
+    "filled": true
+  },
+  "shuffle-angular": {
+    "line": true,
+    "filled": true
+  },
+  "shuffle-simple": {
+    "line": true,
+    "filled": true
+  },
+  "skip-back": {
+    "line": true,
+    "filled": true
+  },
+  "skip-back-circle": {
+    "line": true,
+    "filled": true
+  },
+  "skip-forward": {
+    "line": true,
+    "filled": true
+  },
+  "skip-forward-circle": {
+    "line": true,
+    "filled": true
+  },
+  "sliders": {
+    "line": true,
+    "filled": true
+  },
+  "sliders-horizontal": {
+    "line": true,
+    "filled": true
+  },
+  "slideshow": {
+    "line": true,
+    "filled": true
+  },
+  "speaker-hifi": {
+    "line": true,
+    "filled": true
+  },
+  "speaker-high": {
+    "line": true,
+    "filled": true
+  },
+  "speaker-low": {
+    "line": true,
+    "filled": true
+  },
+  "speaker-none": {
+    "line": true,
+    "filled": true
+  },
+  "speaker-simple-high": {
+    "line": true,
+    "filled": true
+  },
+  "speaker-simple-low": {
+    "line": true,
+    "filled": true
+  },
+  "speaker-simple-none": {
+    "line": true,
+    "filled": true
+  },
+  "speaker-simple-slash": {
+    "line": true,
+    "filled": true
+  },
+  "speaker-simple-x": {
+    "line": true,
+    "filled": true
+  },
+  "speaker-slash": {
+    "line": true,
+    "filled": true
+  },
+  "speaker-x": {
+    "line": true,
+    "filled": true
+  },
+  "standard-definition": {
+    "line": true,
+    "filled": true
+  },
+  "stop": {
+    "line": true,
+    "filled": true
+  },
+  "stop-circle": {
+    "line": true,
+    "filled": true
+  },
+  "subtitles": {
+    "line": true,
+    "filled": true
+  },
+  "subtitles-slash": {
+    "line": true,
+    "filled": true
+  },
+  "television": {
+    "line": true,
+    "filled": true
+  },
+  "television-simple": {
+    "line": true,
+    "filled": true
+  },
+  "three-d": {
+    "line": true,
+    "filled": true
+  },
+  "video-camera": {
+    "line": true,
+    "filled": true
+  },
+  "video-camera-slash": {
+    "line": true,
+    "filled": true
+  },
+  "video-conference": {
+    "line": true,
+    "filled": true
+  },
+  "vinyl-record": {
+    "line": true,
+    "filled": true
+  },
+  "visor": {
+    "line": true,
+    "filled": true
+  },
+  "wave-sawtooth": {
+    "line": true,
+    "filled": true
+  },
+  "wave-sine": {
+    "line": true,
+    "filled": true
+  },
+  "wave-square": {
+    "line": true,
+    "filled": true
+  },
+  "wave-triangle": {
+    "line": true,
+    "filled": true
+  },
+  "waveform": {
+    "line": true,
+    "filled": true
+  },
+  "waveform-slash": {
+    "line": true,
+    "filled": true
+  },
+  "webcam": {
+    "line": true,
+    "filled": true
+  },
+  "webcam-slash": {
+    "line": true,
+    "filled": true
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "facebook": {
+    "line": true,
+    "filled": false
+  },
+  "instagram": {
+    "line": true,
+    "filled": false
+  },
+  "linkedin": {
+    "line": true,
+    "filled": false
+  },
+  "pinterest": {
+    "line": true,
+    "filled": false
+  },
+  "quora": {
+    "line": true,
+    "filled": false
+  },
+  "reddit": {
+    "line": true,
+    "filled": false
+  },
+  "snap-chat": {
+    "line": true,
+    "filled": false
+  },
+  "spotify": {
+    "line": true,
+    "filled": false
+  },
+  "tiktok": {
+    "line": true,
+    "filled": false
+  },
+  "twitch": {
+    "line": true,
+    "filled": false
+  },
+  "vimeo": {
+    "line": true,
+    "filled": false
+  },
+  "x": {
+    "line": true,
+    "filled": false
+  },
+  "youtube": {
+    "line": true,
+    "filled": false
+  }
+}

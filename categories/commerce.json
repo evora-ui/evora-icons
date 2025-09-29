@@ -1,0 +1,706 @@
+{
+  "armchair": {
+    "line": true,
+    "filled": true
+  },
+  "avocado": {
+    "line": true,
+    "filled": false
+  },
+  "axe": {
+    "line": true,
+    "filled": false
+  },
+  "baby-carriage": {
+    "line": true,
+    "filled": false
+  },
+  "backpack": {
+    "line": true,
+    "filled": false
+  },
+  "bag": {
+    "line": true,
+    "filled": false
+  },
+  "bag-simple": {
+    "line": true,
+    "filled": false
+  },
+  "balloon": {
+    "line": true,
+    "filled": false
+  },
+  "barcode": {
+    "line": true,
+    "filled": true
+  },
+  "barn": {
+    "line": true,
+    "filled": true
+  },
+  "baseball-cap": {
+    "line": true,
+    "filled": true
+  },
+  "basket": {
+    "line": true,
+    "filled": true
+  },
+  "bathtub": {
+    "line": true,
+    "filled": true
+  },
+  "beanie": {
+    "line": true,
+    "filled": true
+  },
+  "beer-bottle": {
+    "line": true,
+    "filled": true
+  },
+  "beer-stein": {
+    "line": true,
+    "filled": true
+  },
+  "belt": {
+    "line": true,
+    "filled": true
+  },
+  "binoculars": {
+    "line": true,
+    "filled": true
+  },
+  "boot": {
+    "line": true,
+    "filled": true
+  },
+  "bowl-food": {
+    "line": true,
+    "filled": true
+  },
+  "bowl-steam": {
+    "line": true,
+    "filled": true
+  },
+  "brandy": {
+    "line": true,
+    "filled": true
+  },
+  "bread": {
+    "line": true,
+    "filled": true
+  },
+  "bridge": {
+    "line": true,
+    "filled": true
+  },
+  "broom": {
+    "line": true,
+    "filled": true
+  },
+  "building": {
+    "line": true,
+    "filled": true
+  },
+  "building-apartment": {
+    "line": true,
+    "filled": true
+  },
+  "building-office": {
+    "line": true,
+    "filled": true
+  },
+  "buildings": {
+    "line": true,
+    "filled": true
+  },
+  "bulldozer": {
+    "line": true,
+    "filled": true
+  },
+  "cake": {
+    "line": true,
+    "filled": true
+  },
+  "call-bell": {
+    "line": true,
+    "filled": true
+  },
+  "car-battery": {
+    "line": true,
+    "filled": true
+  },
+  "cardholder": {
+    "line": true,
+    "filled": true
+  },
+  "carrot": {
+    "line": true,
+    "filled": true
+  },
+  "cash-register": {
+    "line": true,
+    "filled": true
+  },
+  "chair": {
+    "line": true,
+    "filled": true
+  },
+  "champagne": {
+    "line": true,
+    "filled": true
+  },
+  "cheers": {
+    "line": true,
+    "filled": true
+  },
+  "cheese": {
+    "line": true,
+    "filled": true
+  },
+  "chef-hat": {
+    "line": true,
+    "filled": true
+  },
+  "cherries": {
+    "line": true,
+    "filled": true
+  },
+  "cigarette": {
+    "line": true,
+    "filled": true
+  },
+  "cigarette-slash": {
+    "line": true,
+    "filled": true
+  },
+  "city": {
+    "line": true,
+    "filled": true
+  },
+  "coat-hanger": {
+    "line": true,
+    "filled": true
+  },
+  "coffee": {
+    "line": true,
+    "filled": true
+  },
+  "coffee-bean": {
+    "line": true,
+    "filled": true
+  },
+  "coin": {
+    "line": true,
+    "filled": true
+  },
+  "coin-vertical": {
+    "line": true,
+    "filled": true
+  },
+  "coins": {
+    "line": true,
+    "filled": true
+  },
+  "contactless-payment": {
+    "line": true,
+    "filled": true
+  },
+  "cookie": {
+    "line": true,
+    "filled": true
+  },
+  "cooking-pot": {
+    "line": true,
+    "filled": true
+  },
+  "couch": {
+    "line": true,
+    "filled": true
+  },
+  "cowboy-hat": {
+    "line": true,
+    "filled": true
+  },
+  "crane": {
+    "line": true,
+    "filled": true
+  },
+  "crane-tower": {
+    "line": true,
+    "filled": true
+  },
+  "credit-card": {
+    "line": true,
+    "filled": true
+  },
+  "currency-btc": {
+    "line": true,
+    "filled": true
+  },
+  "currency-circle-dollar": {
+    "line": true,
+    "filled": true
+  },
+  "currency-cny": {
+    "line": true,
+    "filled": true
+  },
+  "currency-dollar": {
+    "line": true,
+    "filled": true
+  },
+  "currency-dollar-simple": {
+    "line": true,
+    "filled": true
+  },
+  "currency-eth": {
+    "line": true,
+    "filled": true
+  },
+  "currency-eur": {
+    "line": true,
+    "filled": true
+  },
+  "currency-gbp": {
+    "line": true,
+    "filled": true
+  },
+  "currency-inr": {
+    "line": true,
+    "filled": true
+  },
+  "currency-jpy": {
+    "line": true,
+    "filled": true
+  },
+  "currency-krw": {
+    "line": true,
+    "filled": true
+  },
+  "currency-kzt": {
+    "line": true,
+    "filled": true
+  },
+  "currency-ngn": {
+    "line": true,
+    "filled": true
+  },
+  "currency-rub": {
+    "line": true,
+    "filled": true
+  },
+  "desk": {
+    "line": true,
+    "filled": true
+  },
+  "door": {
+    "line": true,
+    "filled": true
+  },
+  "door-open": {
+    "line": true,
+    "filled": true
+  },
+  "dress": {
+    "line": true,
+    "filled": true
+  },
+  "dresser": {
+    "line": true,
+    "filled": true
+  },
+  "egg": {
+    "line": true,
+    "filled": true
+  },
+  "egg-crack": {
+    "line": true,
+    "filled": true
+  },
+  "eyeglasses": {
+    "line": true,
+    "filled": true
+  },
+  "factory": {
+    "line": true,
+    "filled": true
+  },
+  "fan": {
+    "line": true,
+    "filled": true
+  },
+  "farm": {
+    "line": true,
+    "filled": true
+  },
+  "fork-knife": {
+    "line": true,
+    "filled": true
+  },
+  "garage": {
+    "line": true,
+    "filled": true
+  },
+  "gavel": {
+    "line": true,
+    "filled": true
+  },
+  "gift": {
+    "line": true,
+    "filled": true
+  },
+  "grains": {
+    "line": true,
+    "filled": true
+  },
+  "grains-slash": {
+    "line": true,
+    "filled": true
+  },
+  "hair-dryer": {
+    "line": true,
+    "filled": true
+  },
+  "hamburger": {
+    "line": true,
+    "filled": true
+  },
+  "hammer": {
+    "line": true,
+    "filled": true
+  },
+  "hand-coins": {
+    "line": true,
+    "filled": true
+  },
+  "handbag": {
+    "line": true,
+    "filled": true
+  },
+  "handbag-simple": {
+    "line": true,
+    "filled": true
+  },
+  "hard-hat": {
+    "line": true,
+    "filled": true
+  },
+  "high-heel": {
+    "line": true,
+    "filled": true
+  },
+  "hoodie": {
+    "line": true,
+    "filled": true
+  },
+  "ice-cream": {
+    "line": true,
+    "filled": true
+  },
+  "invoice": {
+    "line": true,
+    "filled": true
+  },
+  "jar": {
+    "line": true,
+    "filled": true
+  },
+  "jar-label": {
+    "line": true,
+    "filled": true
+  },
+  "knife": {
+    "line": true,
+    "filled": true
+  },
+  "ladder": {
+    "line": true,
+    "filled": true
+  },
+  "ladder-simple": {
+    "line": true,
+    "filled": true
+  },
+  "lamp": {
+    "line": true,
+    "filled": true
+  },
+  "lamp-pendant": {
+    "line": true,
+    "filled": true
+  },
+  "martini": {
+    "line": true,
+    "filled": true
+  },
+  "money": {
+    "line": true,
+    "filled": true
+  },
+  "money-wavy": {
+    "line": true,
+    "filled": true
+  },
+  "needle": {
+    "line": true,
+    "filled": true
+  },
+  "nuclear-plant": {
+    "line": true,
+    "filled": true
+  },
+  "office-chair": {
+    "line": true,
+    "filled": true
+  },
+  "onigiri": {
+    "line": true,
+    "filled": true
+  },
+  "orange": {
+    "line": true,
+    "filled": true
+  },
+  "orange-slice": {
+    "line": true,
+    "filled": true
+  },
+  "oven": {
+    "line": true,
+    "filled": true
+  },
+  "package": {
+    "line": true,
+    "filled": true
+  },
+  "pants": {
+    "line": true,
+    "filled": true
+  },
+  "pepper": {
+    "line": true,
+    "filled": true
+  },
+  "picnic-table": {
+    "line": true,
+    "filled": true
+  },
+  "piggy-bank": {
+    "line": true,
+    "filled": true
+  },
+  "pint-glass": {
+    "line": true,
+    "filled": true
+  },
+  "pipe": {
+    "line": true,
+    "filled": true
+  },
+  "pipe-wrench": {
+    "line": true,
+    "filled": true
+  },
+  "pix-logo": {
+    "line": true,
+    "filled": true
+  },
+  "pizza": {
+    "line": true,
+    "filled": true
+  },
+  "popcorn": {
+    "line": true,
+    "filled": true
+  },
+  "popsicle": {
+    "line": true,
+    "filled": true
+  },
+  "potted-plant": {
+    "line": true,
+    "filled": true
+  },
+  "receipt": {
+    "line": true,
+    "filled": true
+  },
+  "receipt-x": {
+    "line": true,
+    "filled": true
+  },
+  "rug": {
+    "line": true,
+    "filled": true
+  },
+  "scales": {
+    "line": true,
+    "filled": true
+  },
+  "screwdriver": {
+    "line": true,
+    "filled": true
+  },
+  "seatbelt": {
+    "line": true,
+    "filled": true
+  },
+  "shirt-folded": {
+    "line": true,
+    "filled": true
+  },
+  "shopping-bag": {
+    "line": true,
+    "filled": true
+  },
+  "shopping-bag-open": {
+    "line": true,
+    "filled": true
+  },
+  "shopping-cart": {
+    "line": true,
+    "filled": true
+  },
+  "shopping-cart-simple": {
+    "line": true,
+    "filled": true
+  },
+  "shovel": {
+    "line": true,
+    "filled": true
+  },
+  "shower": {
+    "line": true,
+    "filled": true
+  },
+  "sneaker": {
+    "line": true,
+    "filled": true
+  },
+  "sneaker-move": {
+    "line": true,
+    "filled": true
+  },
+  "sock": {
+    "line": true,
+    "filled": true
+  },
+  "solar-panel": {
+    "line": true,
+    "filled": true
+  },
+  "solar-roof": {
+    "line": true,
+    "filled": true
+  },
+  "stairs": {
+    "line": true,
+    "filled": true
+  },
+  "stool": {
+    "line": true,
+    "filled": true
+  },
+  "storefront": {
+    "line": true,
+    "filled": true
+  },
+  "sunglasses": {
+    "line": true,
+    "filled": true
+  },
+  "tshirt": {
+    "line": true,
+    "filled": true
+  },
+  "tag": {
+    "line": true,
+    "filled": true
+  },
+  "tag-chevron": {
+    "line": true,
+    "filled": true
+  },
+  "tag-simple": {
+    "line": true,
+    "filled": true
+  },
+  "tea-bag": {
+    "line": true,
+    "filled": true
+  },
+  "ticket": {
+    "line": true,
+    "filled": true
+  },
+  "tip-jar": {
+    "line": true,
+    "filled": true
+  },
+  "tire": {
+    "line": true,
+    "filled": true
+  },
+  "toolbox": {
+    "line": true,
+    "filled": true
+  },
+  "tote": {
+    "line": true,
+    "filled": true
+  },
+  "tote-simple": {
+    "line": true,
+    "filled": true
+  },
+  "towel": {
+    "line": true,
+    "filled": true
+  },
+  "tractor": {
+    "line": true,
+    "filled": true
+  },
+  "trademark": {
+    "line": true,
+    "filled": true
+  },
+  "trademark-registered": {
+    "line": true,
+    "filled": true
+  },
+  "truck-trailer": {
+    "line": true,
+    "filled": true
+  },
+  "wallet": {
+    "line": true,
+    "filled": true
+  },
+  "warehouse": {
+    "line": true,
+    "filled": true
+  },
+  "washing-machine": {
+    "line": true,
+    "filled": true
+  },
+  "windmill": {
+    "line": true,
+    "filled": true
+  },
+  "wine": {
+    "line": true,
+    "filled": true
+  },
+  "wrench": {
+    "line": true,
+    "filled": true
+  },
+  "yarn": {
+    "line": true,
+    "filled": true
+  }
+}

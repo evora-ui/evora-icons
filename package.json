@@ -16,6 +16,7 @@
   },
   "homepage": "https://github.com/evora-ui/evora-icons#readme",
   "devDependencies": {
+    "@changesets/cli": "^2.29.7",
     "@typescript-eslint/eslint-plugin": "^8.38.0",
     "@typescript-eslint/parser": "^8.38.0",
     "eslint": "^9.32.0",

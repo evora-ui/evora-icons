@@ -1,0 +1,114 @@
+{
+  "alarm": {
+    "line": true,
+    "filled": true
+  },
+  "calendar": {
+    "line": true,
+    "filled": true
+  },
+  "calendar-blank": {
+    "line": true,
+    "filled": true
+  },
+  "calendar-check": {
+    "line": true,
+    "filled": true
+  },
+  "calendar-dot": {
+    "line": true,
+    "filled": true
+  },
+  "calendar-dots": {
+    "line": true,
+    "filled": true
+  },
+  "calendar-heart": {
+    "line": true,
+    "filled": true
+  },
+  "calendar-minus": {
+    "line": true,
+    "filled": true
+  },
+  "calendar-plus": {
+    "line": true,
+    "filled": true
+  },
+  "calendar-slash": {
+    "line": true,
+    "filled": true
+  },
+  "calendar-star": {
+    "line": true,
+    "filled": true
+  },
+  "calendar-x": {
+    "line": true,
+    "filled": true
+  },
+  "clock": {
+    "line": true,
+    "filled": true
+  },
+  "clock-afternoon": {
+    "line": true,
+    "filled": true
+  },
+  "clock-clockwise": {
+    "line": true,
+    "filled": true
+  },
+  "clock-countdown": {
+    "line": true,
+    "filled": true
+  },
+  "clock-counter-clockwise": {
+    "line": true,
+    "filled": true
+  },
+  "clock-user": {
+    "line": true,
+    "filled": true
+  },
+  "hourglass": {
+    "line": true,
+    "filled": true
+  },
+  "hourglass-high": {
+    "line": true,
+    "filled": true
+  },
+  "hourglass-low": {
+    "line": true,
+    "filled": true
+  },
+  "hourglass-medium": {
+    "line": true,
+    "filled": true
+  },
+  "hourglass-simple": {
+    "line": true,
+    "filled": true
+  },
+  "hourglass-simple-high": {
+    "line": true,
+    "filled": true
+  },
+  "hourglass-simple-low": {
+    "line": true,
+    "filled": true
+  },
+  "hourglass-simple-medium": {
+    "line": true,
+    "filled": true
+  },
+  "timer": {
+    "line": true,
+    "filled": true
+  },
+  "watch": {
+    "line": true,
+    "filled": true
+  }
+}

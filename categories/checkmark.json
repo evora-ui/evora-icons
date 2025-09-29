@@ -1,0 +1,18 @@
+{
+  "checkmark-no": {
+    "line": true,
+    "filled": true
+  },
+  "checkmark-plain-no": {
+    "line": true,
+    "filled": false
+  },
+  "checkmark-plain-yes": {
+    "line": true,
+    "filled": false
+  },
+  "checkmark-yes": {
+    "line": true,
+    "filled": true
+  }
+}

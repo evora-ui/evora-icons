@@ -1,0 +1,118 @@
+{
+  "binary": {
+    "line": true,
+    "filled": true
+  },
+  "brackets-angle": {
+    "line": true,
+    "filled": true
+  },
+  "brackets-curly": {
+    "line": true,
+    "filled": true
+  },
+  "brackets-round": {
+    "line": true,
+    "filled": true
+  },
+  "brackets-square": {
+    "line": true,
+    "filled": true
+  },
+  "bug": {
+    "line": true,
+    "filled": true
+  },
+  "bug-beetle": {
+    "line": true,
+    "filled": true
+  },
+  "bug-droid": {
+    "line": true,
+    "filled": true
+  },
+  "code": {
+    "line": true,
+    "filled": true
+  },
+  "code-block": {
+    "line": true,
+    "filled": true
+  },
+  "code-simple": {
+    "line": true,
+    "filled": true
+  },
+  "cpu": {
+    "line": true,
+    "filled": true
+  },
+  "database": {
+    "line": true,
+    "filled": true
+  },
+  "git-branch": {
+    "line": true,
+    "filled": true
+  },
+  "git-commit": {
+    "line": true,
+    "filled": true
+  },
+  "git-diff": {
+    "line": true,
+    "filled": true
+  },
+  "git-fork": {
+    "line": true,
+    "filled": true
+  },
+  "git-merge": {
+    "line": true,
+    "filled": true
+  },
+  "git-pull-request": {
+    "line": true,
+    "filled": true
+  },
+  "graphics-card": {
+    "line": true,
+    "filled": true
+  },
+  "head-circuit": {
+    "line": true,
+    "filled": true
+  },
+  "magnet": {
+    "line": true,
+    "filled": true
+  },
+  "magnet-straight": {
+    "line": true,
+    "filled": true
+  },
+  "markdown-logo": {
+    "line": true,
+    "filled": true
+  },
+  "robot": {
+    "line": true,
+    "filled": true
+  },
+  "terminal": {
+    "line": true,
+    "filled": true
+  },
+  "terminal-window": {
+    "line": true,
+    "filled": true
+  },
+  "tree-structure": {
+    "line": true,
+    "filled": true
+  },
+  "webhooks-logo": {
+    "line": true,
+    "filled": true
+  }
+}
