@@ -28,7 +28,7 @@ jobs:
         run: yarn install --immutable
 
       - name: Lint
-        run: yarn lint
+        run: yarn lint --fix
 
       - name: Generate (strict)
         run: |

@@ -4,8 +4,6 @@ import { EVORA_ICONS_KEY, type IconsProvideMap } from "./keys";
 import type { IconName as GeneratedIconName } from "./icons/names";
 
 type SizeToken = "xs" | "sm" | "md" | "lg" | "xl" | "2xl" | "3xl";
-type IconVariant = "line" | "filled";
-
 export default defineComponent({
   name: "EvIcon",
   props: {
@@ -13,7 +11,6 @@ export default defineComponent({
     size: { type: [Number, String] as PropType<number | string | SizeToken>, default: 32 },
     color: { type: String as PropType<string | undefined>, default: undefined },
     ariaLabel: { type: String as PropType<string | undefined>, default: undefined },
-    variant: { type: String as PropType<IconVariant>, default: "line" },
   },
   setup(props, { attrs }) {
     const sizeMap: Record<SizeToken, number> = {
@@ -30,22 +27,12 @@ export default defineComponent({
       if (typeof s === "string" && s in sizeMap) return sizeMap[s as SizeToken];
       return s;
     });
-    const evoraIcons = inject<IconsProvideMap | undefined>(EVORA_ICONS_KEY, undefined);
+    const evoraIcons = inject(EVORA_ICONS_KEY);
 
-    const findProvided = (name: string, variant: IconVariant): Component | undefined => {
+    const findProvided = (name: string): Component | undefined => {
       const key = name.trim();
       const lower = key.toLowerCase();
       if (!evoraIcons) return undefined;
-      const nested =
-        (evoraIcons as any).line || (evoraIcons as any).filled
-          ? (evoraIcons as any as { line?: Record<string, Component>; filled?: Record<string, Component> })
-          : null;
-      if (nested) {
-        const vMap = (variant === "filled" ? nested.filled : nested.line) || {};
-        if (vMap && lower in vMap) return vMap[lower];
-        if (vMap && key in vMap) return vMap[key];
-        return undefined;
-      }
       const flat = evoraIcons as unknown as Record<string, Component>;
       if (flat[lower]) return flat[lower];
       if (flat[key]) return flat[key];
@@ -53,10 +40,10 @@ export default defineComponent({
     };
 
     const Resolved = computed<Component>(() => {
-      const c = findProvided(props.name, props.variant);
+      const c = findProvided(props.name);
       if (c) return c;
       if (import.meta && (import.meta as any).env && (import.meta as any).env.DEV) {
-        console.warn(`[evora-icons] Icon not provided: name="${String(props.name)}", variant="${props.variant}".`);
+        console.warn(`[evora-icons] Icon not provided: name="${String(props.name)}".`);
       }
       return defineComponent({ name: "EvoraEmpty", render: () => null }) as unknown as Component;
     });

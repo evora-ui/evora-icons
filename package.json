@@ -35,6 +35,7 @@
     "clean": "yarn workspaces foreach -Av run clean",
     "lint:fix": "yarn workspaces foreach -Av run lint:fix",
     "lint": "eslint .",
+    "postinstall": "node tools/generate-icons.mjs --pkg packages/vue || true",
     "prepublishOnly": "yarn generate && yarn build && yarn types && yarn lint:fix"
   }
 }
