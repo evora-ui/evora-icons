@@ -14,69 +14,64 @@ yarn add @evora-ui/icons-vue
 npm i @evora-ui/icons-vue
 ```
 
-## Usage
+## Quick Start
 
-1) EvIcon + provide (recommended)
+1) Flat imports (recommended)
+
+```ts
+import { EvUser, EvUserFilled } from '@evora-ui/icons-vue/icons'
+```
+
+```vue
+<EvUser />
+<EvUserFilled />
+```
+
+2) Global <EvIcon /> via provide (flat names)
 
 ```ts
 // main.ts
 import { createApp } from 'vue'
 import App from './App.vue'
-import createEvoraIcons, { createEvoraIcons as namedCreate } from '@evora-ui/icons-vue'
-import { EvUser } from '@evora-ui/icons-vue/icons/line'
-import { EvUser as EvUserFilled } from '@evora-ui/icons-vue/icons/filled'
+import { createEvoraIcons } from '@evora-ui/icons-vue'
+import { EvUser, EvUserFilled } from '@evora-ui/icons-vue/icons'
 
 createApp(App)
-  .use(createEvoraIcons({ 
-    icons: { 
-        line: { user: EvUser }, 
-        filled: { user: EvUserFilled } 
-    } 
+  .use(createEvoraIcons({
+    icons: {
+      'user': EvUser,
+      'user-filled': EvUserFilled,
+    }
   }))
   .mount('#app')
 ```
 
 ```vue
 <EvIcon name="user" />
-<EvIcon name="user" variant="filled" color="#222" />
+<EvIcon name="user-filled" color="#222" />
 ```
 
-2) Direct per‑icon imports
+3) Direct per‑icon imports
 
 ```ts
-import { EvUser } from '@evora-ui/icons-vue/icons'
-// Or explicit variants:
-import { EvUser as EvUserLine } from '@evora-ui/icons-vue/icons/line'
-import { EvUser as EvUserFilled } from '@evora-ui/icons-vue/icons/filled'
+import { EvUser, EvUserFilled } from '@evora-ui/icons-vue/icons'
 ```
 
 ```vue
-<EvUser />            <!-- default (line) variant -->
-<EvUserLine />        <!-- explicit line variant -->
-<EvUserFilled />      <!-- explicit filled variant -->
+<EvUser />            <!-- line variant -->
+<EvUserFilled color="#ccc" />      <!-- filled variant -->
 ```
 
-3) Combined icons entry (facade and variant components)
+4) Variant components
 
 ```ts
-import { EvChat, EvChatLine, EvChatFilled } from '@evora-ui/icons-vue/icons'
+import { EvChat, EvChatFilled } from '@evora-ui/icons-vue/icons'
 ```
-- `EvChat` is a synchronous facade that switches by its `variant` prop.
-- `EvChatLine` and `EvChatFilled` are explicit variant components (tightest bundles when you know the variant).
-
-```vue
-<!-- Facade chooses the variant at render time -->
-<EvChat />
-<EvChat variant="filled" />
-
-<!-- Explicit‑variant components -->
-<EvChatLine />
-<EvChatFilled />
-```
+- `EvChat` — line variant.
+- `EvChatFilled` — filled variant.
 
 ## EvIcon Props
-- `name`: string — icon name (strictly typed union of generated names)
-- `variant`: 'line' | 'filled' — visual style, default `line`
+- `name`: string — icon name (strict union of generated names)
 - `size`: number | string | token — default `32` (pixels)
   - tokens: `xs`(12), `sm`(16), `md`(24), `lg`(32), `xl`(40), `2xl`(48), `3xl`(56)
 - `color`: string — any CSS color; defaults to `currentColor`
@@ -84,36 +79,81 @@ import { EvChat, EvChatLine, EvChatFilled } from '@evora-ui/icons-vue/icons'
 
 Additional attributes are forwarded to the underlying SVG (e.g. `stroke-width`, `stroke-linecap`).
 
+Accessibility:
+- Without `ariaLabel`, icons render with `aria-hidden`.
+- Pass `ariaLabel` for an accessible name, or forward `title`/`aria-*`.
+
 ## Tips
 - Provide only what you use — the bundle will contain just those icons.
 - Set `size="1em"` to inherit font size; use `color` or rely on `currentColor`.
 - In dev, if an icon is not found in the provided map, EvIcon warns and renders nothing.
+
+## Per‑icon component props
+- `size`, `stroke`, `strokeWidth`, `linecap`, `linejoin`, `ariaLabel` — same as `EvIcon`.
+- `color` — the primary way to set color; internally maps to root `fill`.
+- `fill` — legacy alias; if both provided, `color` wins.
 
 ## Sizing
 - Pass a number (pixels), a CSS size string, or a token.
 - Examples: `size={32}`, `size="24"`, `size="24px"`, `size="1em"`, `size="md"`.
 
 ## Names
-- Icon names are kebab‑case (lowercase with dashes): e.g. `address-book`, `air-traffic-control`.
+- Icon names are kebab‑case:
+  - line variant: `address-book`
+  - filled variant: `address-book-filled`
 - TypeScript helpers:
   - `import { ICON_NAMES, type IconName } from '@evora-ui/icons-vue/icons/names'`.
-  - Use `IconName` for strict typing of `EvIcon`'s `name` prop.
+  - Use `IconName` for strict typing of the `EvIcon` `name` prop.
 
 ## Performance
-- Prefer direct imports from `icons/line` or `icons/filled` when you know the variant — smallest bundles.
-- The combined `@evora-ui/icons-vue/icons` entry is convenient but includes variant aliases too.
-- `EvIcon` is great for app‑wide provide; for hot paths prefer direct components.
+- Prefer direct imports of explicit filled variants when you know the variant: `import { EvUserFilled } from '@evora-ui/icons-vue/icons'` — smallest bundles when you need filled.
+- `@evora-ui/icons-vue/icons` exports both default and explicit variants; tree‑shaking drops unused ones.
+- `EvIcon` is convenient for app‑wide provide; in hot paths prefer direct components.
 
 ## CSP / SSR
 - Icons ship as render modules using static VNodes by default (no innerHTML) for CSP‑friendly SSR.
 - Building from sources? The generator supports:
   - `--static-vnode` / `STATIC_VNODE=1` to enforce static VNodes
   - `--no-static-vnode` / `STATIC_VNODE=0` to use innerHTML
+  - `--force-root-stroke` / `FORCE_ROOT_STROKE=1` to strip per-node stroke attributes for line icons so stroke can be driven from the root `<svg>` (useful for consistent theming). Note: defaults off and affects only `icons/line`.
+
+Nuxt 3 (SSR) example:
+
+```ts
+// plugins/evora-icons.ts
+import { defineNuxtPlugin } from '#app'
+import { createEvoraIcons } from '@evora-ui/icons-vue'
+import { EvUser, EvUserFilled } from '@evora-ui/icons-vue/icons'
+
+export default defineNuxtPlugin((nuxtApp) => {
+  nuxtApp.vueApp.use(createEvoraIcons({
+    icons: { user: EvUser, 'user-filled': EvUserFilled },
+  }))
+})
+```
+
+```vue
+<template>
+  <EvIcon name="user" />
+  <EvIcon name="user-filled" />
+  <!-- Also works with direct components -->
+  <EvUser />
+  <EvUserFilled />
+</template>
+```
+
+SSR notes:
+- Static render is used by default — no innerHTML — avoids hydration issues and is CSP‑friendly.
+- Do not use `--no-static-vnode` when building for SSR.
 
 ## Troubleshooting
 - Nothing renders: ensure you provided the icon (or import the per‑icon component directly).
 - Wrong `name`: check the generated union (TypeScript will help) and the exact key used in provide.
 - Variant mismatch: if you only provided `line`, `variant="filled"` won’t resolve.
+
+IDE hints (Volar):
+- Package includes global types for `<EvIcon>`, so tag and `name` autocompletion work out of the box.
+- It’s recommended to enable Take Over Mode in Volar and restart TS Server after installing/updating the package.
 
 ## Categories data
 - This package doesn’t ship categories JSON. If you work in this monorepo, generated categories live under the repo root `categories/`.

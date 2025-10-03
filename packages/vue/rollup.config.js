@@ -4,8 +4,6 @@ export default {
   input: [
     "src/index.ts",
     "src/icons/index.ts",
-    "src/icons/line/index.ts",
-    "src/icons/filled/index.ts",
     "src/icons/names.ts",
   ],
   output: {

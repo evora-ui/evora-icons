@@ -1,10 +1,5 @@
-import type { Component } from "vue";
+import type { Component, InjectionKey } from "vue";
 
-export const EVORA_ICONS_KEY = "evora-icons" as const;
+export type IconsProvideMap = Record<string, Component>;
 
-export type IconsProvideFlatMap = Record<string, Component>;
-export type IconsProvideNestedMap = {
-  line?: Record<string, Component>;
-  filled?: Record<string, Component>;
-};
-export type IconsProvideMap = IconsProvideFlatMap | IconsProvideNestedMap;
+export const EVORA_ICONS_KEY: InjectionKey<IconsProvideMap> = Symbol("evora-icons");

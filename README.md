@@ -7,7 +7,7 @@ Evora Icons is a growing set of clean, consistent UI icons in two visual variant
 - Some icons attribution is provided via `NOTICE`
 
 ## Packages
-- Vue (now): see `packages/vue/README.md` for usage, props, and import patterns
+- Vue (now): see `packages/vue/README.md` for usage, props, and flat import patterns
 - React (soon): `@evora/icons-react` is on the roadmap
 
 ## Development
@@ -16,6 +16,10 @@ Evora Icons is a growing set of clean, consistent UI icons in two visual variant
 - Run generator:
   - From repo root: `yarn generate` (runs per workspace)
   - Or directly: `node tools/generate-icons.mjs --pkg packages/vue`
+  - Flags:
+    - `--static-vnode` / `STATIC_VNODE=1` — force static VNodes
+    - `--no-static-vnode` / `STATIC_VNODE=0` — allow innerHTML VNodes
+    - `--force-root-stroke` / `FORCE_ROOT_STROKE=1` — for line sets, strip stroke attributes from child nodes to let root `stroke`/`stroke-width` control appearance (off by default)
 
 ### Categories JSON
 - The generator emits category manifests to the repo root at `categories/`:

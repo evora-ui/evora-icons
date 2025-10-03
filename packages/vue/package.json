@@ -1,6 +1,6 @@
 {
   "name": "@evora-ui/icons-vue",
-  "version": "0.2.0",
+  "version": "1.0.0",
   "description": "1500+ free SVG icon components for Vue 3 — line & filled variants. Tree‑shakable, typed, CSP/SSR‑friendly.",
   "type": "module",
   "sideEffects": false,
@@ -11,10 +11,15 @@
   "typesVersions": {
     "*": {
       "icons": [
-        "dist/icons/index.d.ts"
+        "src/icons/index.d.ts"
       ],
-      "icons/*": [
-        "dist/icons/*/index.d.ts"
+      "names": [
+        "src/names.ts",
+        "dist/names.d.ts"
+      ],
+      "icons/names": [
+        "src/names.ts",
+        "dist/names.d.ts"
       ]
     }
   },
@@ -24,31 +29,23 @@
       "types": "./dist/index.d.ts"
     },
     "./icons": {
-      "import": "./dist/icons/index.js",
-      "types": "./dist/icons/index.d.ts"
-    },
-    "./icons/line": {
-      "import": "./dist/icons/line/index.js",
-      "types": "./dist/icons/line/index.d.ts"
-    },
-    "./icons/filled": {
-      "import": "./dist/icons/filled/index.js",
-      "types": "./dist/icons/filled/index.d.ts"
-    },
-    "./icons/line/async": {
-      "import": "./dist/icons/line/async.js"
-    },
-    "./icons/filled/async": {
-      "import": "./dist/icons/filled/async.js"
+      "types": "./src/icons/index.d.ts",
+      "default": "./dist/icons/index.js"
     },
     "./icons/names": {
-      "import": "./dist/icons/names.js",
-      "types": "./dist/icons/names.d.ts"
+      "types": "./dist/icons/names.d.ts",
+      "default": "./dist/icons/names.js"
+    },
+    "./names": {
+      "types": "./dist/icons/names.d.ts",
+      "default": "./dist/icons/names.js"
     },
     "./package.json": "./package.json"
   },
   "files": [
     "dist",
+    "src/icons/index.d.ts",
+    "src/names.ts",
     "README.md",
     "LICENSE",
     "NOTICE"
@@ -58,7 +55,7 @@
     "prebuild": "yarn clean && yarn generate",
     "build": "rollup -c",
     "pretypes": "yarn generate",
-    "types": "tsc -p tsconfig.json --emitDeclarationOnly --declaration && node ../../tools/fix-icons-dts.mjs --pkg packages/vue",
+    "types": "tsc -p tsconfig.json --emitDeclarationOnly --declaration && cp -f src/global-components.d.ts dist/global-components.d.ts",
     "generate": "node ../../tools/generate-icons.mjs --pkg packages/vue",
     "copy:legal": "cp -f ../../LICENSE ./LICENSE && cp -f ../../NOTICE ./NOTICE",
     "prepack": "yarn copy:legal",
