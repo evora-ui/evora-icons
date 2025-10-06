@@ -47,8 +47,7 @@
     "src/icons/index.d.ts",
     "src/names.ts",
     "README.md",
-    "LICENSE",
-    "NOTICE"
+    "LICENSE"
   ],
   "scripts": {
     "clean": "rm -rf dist",
@@ -57,7 +56,7 @@
     "pretypes": "yarn generate",
     "types": "tsc -p tsconfig.json --emitDeclarationOnly --declaration && cp -f src/global-components.d.ts dist/global-components.d.ts",
     "generate": "node ../../tools/generate-icons.mjs --pkg packages/vue",
-    "copy:legal": "cp -f ../../LICENSE ./LICENSE && cp -f ../../NOTICE ./NOTICE",
+    "copy:legal": "cp -f ../../LICENSE ./LICENSE",
     "prepack": "yarn copy:legal",
     "prepublishOnly": "yarn clean && yarn generate && yarn build && yarn types && yarn lint:fix && yarn copy:legal",
     "lint": "eslint 'src/**/*.{ts,js,vue}'",

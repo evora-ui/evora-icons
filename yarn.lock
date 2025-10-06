@@ -1024,6 +1024,7 @@ __metadata:
   dependencies:
     "@evora-ui/icons-vue": "npm:^1.0.0"
     vitepress: "npm:^1.4.0"
+    vue: "npm:^3.5.0"
   languageName: unknown
   linkType: soft
 

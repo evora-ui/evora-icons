@@ -1,7 +1,9 @@
 {
   "name": "@evora-ui/icons-docs",
+  "version": "0.0.0",
   "private": true,
   "type": "module",
+  "packageManager": "yarn@4.9.4",
   "scripts": {
     "dev": "vitepress dev .",
     "build": "vitepress build .",
@@ -11,6 +13,7 @@
     "vitepress": "^1.4.0"
   },
   "dependencies": {
-    "@evora-ui/icons-vue": "npm:^1.0.0"
+    "@evora-ui/icons-vue": "npm:^1.0.0",
+    "vue": "^3.5.0"
   }
 }
