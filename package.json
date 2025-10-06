@@ -41,7 +41,7 @@
   },
   "scripts": {
     "generate": "yarn workspaces foreach -Av run generate",
-    "build": "yarn workspaces foreach -Av run build",
+    "build": "yarn workspaces foreach -Av --exclude @evora-ui/icons-docs run build",
     "types": "yarn workspaces foreach -Av run types",
     "clean": "yarn workspaces foreach -Av run clean",
     "lint:fix": "yarn workspaces foreach -Av run lint:fix",
