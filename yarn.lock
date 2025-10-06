@@ -1022,12 +1022,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@evora-ui/icons-docs@workspace:packages/docs"
   dependencies:
-    "@evora-ui/icons-vue": "workspace:^"
+    "@evora-ui/icons-vue": "npm:^1.0.0"
     vitepress: "npm:^1.4.0"
   languageName: unknown
   linkType: soft
 
-"@evora-ui/icons-vue@workspace:^, @evora-ui/icons-vue@workspace:packages/vue":
+"@evora-ui/icons-vue@npm:^1.0.0, @evora-ui/icons-vue@workspace:packages/vue":
   version: 0.0.0-use.local
   resolution: "@evora-ui/icons-vue@workspace:packages/vue"
   dependencies:

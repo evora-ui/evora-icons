@@ -11,6 +11,6 @@
     "vitepress": "^1.4.0"
   },
   "dependencies": {
-    "@evora-ui/icons-vue": "workspace:^"
+    "@evora-ui/icons-vue": "^1.0.0"
   }
 }
