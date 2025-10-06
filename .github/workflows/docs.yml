@@ -23,10 +23,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+          cache: yarn
       - name: Enable Corepack
         run: corepack enable
       - name: Install deps
         run: yarn install --immutable
+      - name: Build icons package (@evora-ui/icons-vue)
+        run: |
+          yarn workspace @evora-ui/icons-vue build
+          yarn workspace @evora-ui/icons-vue types
       - name: Build docs
         run: yarn docs:build
       - name: Upload artifact
