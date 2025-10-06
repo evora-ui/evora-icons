@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://icons.evora.dev/sitemap.xml
+
