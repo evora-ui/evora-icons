@@ -60,4 +60,8 @@ export default defineConfig({
     aside: false,
   },
   vite: {},
+  // Generate sitemap.xml at build time
+  sitemap: {
+    hostname: "https://icons.evora.dev",
+  },
 });
