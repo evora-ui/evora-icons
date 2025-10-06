@@ -30,6 +30,9 @@ jobs:
       - name: Lint
         run: yarn lint --fix
 
+      - name: Style Lint
+        run: yarn style:lint --fix
+
       - name: Generate (strict)
         run: |
           STRICT=1 yarn generate

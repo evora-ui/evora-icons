@@ -1,0 +1,16 @@
+{
+  "name": "@evora-ui/icons-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev .",
+    "build": "vitepress build .",
+    "preview": "vitepress preview ."
+  },
+  "devDependencies": {
+    "vitepress": "^1.4.0"
+  },
+  "dependencies": {
+    "@evora-ui/icons-vue": "npm:^1.0.0"
+  }
+}

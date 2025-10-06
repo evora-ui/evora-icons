@@ -1,0 +1,150 @@
+/* Evora color system using HSL components for easy alpha/derivatives */
+:root {
+  /* HSL components (no hsl() wrapper) */
+
+  /* #0071EB ~= hsl(211, 100%, 46%) */
+  --ev-primary: 211 100% 46%;
+  --ev-primary-hover: 211 100% 42%;
+  --ev-primary-active: 211 100% 39%;
+  --ev-secondary: 240 3% 57%;           /* #8E8E93 */
+  --ev-accent: 211 100% 47%;            /* align accent with brand (#0071EB) */
+  --ev-success: 135 59% 49%;            /* #34C759 */
+  --ev-error: 3 100% 59%;               /* #FF3B30 */
+  --ev-warning: 35 100% 50%;            /* #FF9500 */
+  --ev-info: 199 94% 67%;               /* #5AC8FA */
+
+  /* Convenience tokens with hsl() */
+  --ev-c-primary: hsl(var(--ev-primary));
+  --ev-c-secondary: hsl(var(--ev-secondary));
+  --ev-c-accent: hsl(var(--ev-accent));
+  --ev-c-success: hsl(var(--ev-success));
+  --ev-c-error: hsl(var(--ev-error));
+  --ev-c-warning: hsl(var(--ev-warning));
+  --ev-c-info: hsl(var(--ev-info));
+
+  /* Map to VitePress brand colors (affects links, accents) */
+  --vp-c-brand-1: var(--ev-c-primary) !important;
+  --vp-c-brand-2: var(--ev-c-primary) !important;
+  --vp-c-brand-3: hsl(var(--ev-primary) / 14%) !important;
+  --vp-c-brand-soft: hsl(var(--ev-primary) / 8%) !important;
+
+  /* Map default indigo aliases to our brand to avoid purple tint */
+  --vp-c-indigo-1: var(--ev-c-primary) !important;
+  --vp-c-indigo-2: var(--ev-c-primary) !important;
+  --vp-c-indigo-3: hsl(var(--ev-primary) / 14%) !important;
+
+  /* VitePress brand button colors */
+  --vp-button-brand-bg: hsl(var(--ev-primary)) !important;
+  --vp-button-brand-text: #fff !important;
+  --vp-button-brand-border: transparent !important;
+  --vp-button-brand-hover-bg: hsl(var(--ev-primary-hover)) !important;
+  --vp-button-brand-hover-text: #fff !important;
+  --vp-button-brand-hover-border: transparent !important;
+  --vp-button-brand-active-bg: hsl(var(--ev-primary-active)) !important;
+  --vp-button-brand-active-text: #fff !important;
+  --vp-button-brand-active-border: transparent !important;
+}
+
+/* Dark theme overrides */
+.dark {
+  /* Stronger & softer brand in dark for clarity without glare */
+  --ev-primary: 211 100% 62%;
+  --ev-primary-hover: 211 100% 58%;
+  --ev-primary-active: 211 100% 54%;
+
+  /* Brand button in dark keeps the same HSL but reads well on dark bg */
+  --vp-button-brand-bg: hsl(var(--ev-primary));
+  --vp-button-brand-text: #fff;
+  --vp-button-brand-border: transparent;
+  --vp-button-brand-hover-bg: hsl(var(--ev-primary-hover));
+  --vp-button-brand-hover-text: #fff;
+  --vp-button-brand-hover-border: transparent;
+  --vp-button-brand-active-bg: hsl(var(--ev-primary-active));
+  --vp-button-brand-active-text: #fff;
+  --vp-button-brand-active-border: transparent;
+  --ev-secondary: 240 3% 61%;
+  --ev-accent: 211 100% 56%;
+  --ev-success: 135 64% 50%;
+  --ev-error: 3 100% 61%;
+  --ev-warning: 35 100% 52%;
+  --ev-info: 197 100% 70%;
+
+  /* Strengthen brand tokens in dark */
+  --vp-c-brand-1: var(--ev-c-primary) !important;
+  --vp-c-brand-2: var(--ev-c-primary) !important;
+  --vp-c-brand-3: hsl(var(--ev-primary) / 18%) !important;
+  --vp-c-brand-soft: hsl(var(--ev-primary) / 10%) !important;
+  --vp-c-link: var(--ev-c-primary) !important;
+  --vp-c-link-hover: hsl(var(--ev-primary) / 90%) !important;
+
+  /* Indigo aliases in dark to avoid purple */
+  --vp-c-indigo-1: var(--ev-c-primary) !important;
+  --vp-c-indigo-2: var(--ev-c-primary) !important;
+  --vp-c-indigo-3: hsl(var(--ev-primary) / 18%) !important;
+}
+
+/* Utility helpers (optional, for docs/demo) */
+.ev-text-primary {
+  color: var(--ev-c-primary);
+}
+
+.ev-text-secondary {
+  color: var(--ev-c-secondary);
+}
+
+.ev-text-accent {
+  color: var(--ev-c-accent);
+}
+
+.ev-text-success {
+  color: var(--ev-c-success);
+}
+
+.ev-text-error {
+  color: var(--ev-c-error);
+}
+
+.ev-text-warning {
+  color: var(--ev-c-warning);
+}
+
+.ev-text-info {
+  color: var(--ev-c-info);
+}
+
+.ev-bg-primary {
+  background-color: var(--ev-c-primary);
+}
+
+.ev-bg-secondary {
+  background-color: var(--ev-c-secondary);
+}
+
+.ev-bg-accent {
+  background-color: var(--ev-c-accent);
+}
+
+.ev-bg-success {
+  background-color: var(--ev-c-success);
+}
+
+.ev-bg-error {
+  background-color: var(--ev-c-error);
+}
+
+.ev-bg-warning {
+  background-color: var(--ev-c-warning);
+}
+
+.ev-bg-info {
+  background-color: var(--ev-c-info);
+}
+
+/* Example alpha utility using HSL components */
+.ev-bg-primary-soft {
+  background-color: hsl(var(--ev-primary) / 8%);
+}
+
+.ev-border-primary {
+  border-color: var(--ev-c-primary);
+}

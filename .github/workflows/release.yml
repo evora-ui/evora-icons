@@ -27,9 +27,9 @@ jobs:
       - run: node tools/generate-icons.mjs --pkg packages/vue
       - run: yarn workspace @evora-ui/icons-vue run build
       - run: yarn workspace @evora-ui/icons-vue run types
-      - name: Include LICENSE and NOTICE in package
+      - name: Include LICENSE in package
         run: |
-          cp -f LICENSE NOTICE packages/vue/
+          cp -f LICENSE packages/vue/
       - run: npm publish --access public --provenance
         working-directory: packages/vue
         env:
