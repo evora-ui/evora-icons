@@ -35,4 +35,9 @@ Evora Icons is a growing set of clean, consistent UI icons in two visual variant
 
 ## License
 - Code: MIT (see `LICENSE`)
-- Some SVG icons are derived from the Palm UI icon library (CC BY 4.0). See `NOTICE` and https://creativecommons.org/licenses/by/4.0/
+
+## Credits
+Some icons in `@evora-ui/icons-vue` are adapted from the Palm UI icons library.
+Used under CC BY 4.0.
+Attribution is already included within this repository —
+you don’t need to include it when using Evora UI components.

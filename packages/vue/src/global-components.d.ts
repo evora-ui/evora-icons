@@ -1,10 +1,9 @@
-import type { Component } from 'vue'
+import type { Component } from "vue";
 
-declare module 'vue' {
+declare module "vue" {
   export interface GlobalComponents {
-    EvIcon: typeof import('./index').EvIcon
+    EvIcon: typeof import("./index").EvIcon;
   }
 }
 
-export {}
-
+export {};

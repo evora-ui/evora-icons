@@ -4,11 +4,17 @@
     "src",
     "env.d.ts",
     "packages/**/src",
-    "packages/**/rollup.config.js"
+    "packages/**/rollup.config.js",
+    // VitePress docs (TS and Vue SFCs)
+    "packages/**/.vitepress/**/*.ts",
+    "packages/**/.vitepress/**/*.vue",
+    // Root configs
+    "stylelint.config.js"
   ],
   "exclude": [
     "**/dist/**",
-    "**/node_modules/**"
+    "**/node_modules/**",
+    // Exclude VitePress cache outputs
+    "**/.vitepress/cache/**"
   ]
 }
-

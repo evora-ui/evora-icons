@@ -5,14 +5,24 @@ import tseslint from "@typescript-eslint/eslint-plugin";
 import vue from "eslint-plugin-vue";
 import vueParser from "vue-eslint-parser";
 
+
 export default defineConfig([
+  // Fully ignore generated and vendor folders
+  {
+    ignores: [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/.vitepress/cache/**",
+      "packages/vue/src/icons/**",
+    ],
+  },
   {
     files: ["**/*.js", "**/*.ts", "**/*.vue"],
-    ignores: ["**/dist/**", "**/node_modules/**", "**/*.d.ts"],
+    ignores: ["**/dist/**", "**/node_modules/**", "**/.vitepress/cache/**"],
     plugins: {
       "@typescript-eslint": tseslint,
       prettier: eslintPluginPrettier,
-      vue,
+      vue
     },
     languageOptions: {
       parser: vueParser,
@@ -20,8 +30,8 @@ export default defineConfig([
         parser: tsParser,
         ecmaVersion: "latest",
         sourceType: "module",
+        // Use a dedicated tsconfig for linting that includes all workspaces and Vue SFCs
         project: "./tsconfig.eslint.json",
-        tsconfigRootDir: new URL('.', import.meta.url).pathname,
         extraFileExtensions: [".vue"],
       },
     },
@@ -33,6 +43,8 @@ export default defineConfig([
           endOfLine: "auto",
           printWidth: 120,
           htmlWhitespaceSensitivity: "ignore",
+          singleQuote: false,
+          semi: true,
         },
       ],
       "@typescript-eslint/no-explicit-any": "off",

@@ -1,0 +1,221 @@
+/* Widen content area slightly for better icon grid density */
+:root {
+  /* Increase overall layout max width (DefaultTheme uses this token) */
+  --vp-layout-max-width: 1480px;
+}
+
+/* Ensure doc content stretches nicely within max width */
+.VPDoc .container {
+  max-width: var(--vp-layout-max-width);
+}
+
+/* Homepage intro */
+.home-intro {
+  margin: 18px 0 22px;
+}
+
+.home-intro .tagline {
+  position: relative;
+  margin: 0 0 10px;
+  font-size: 22px;
+  letter-spacing: .2px;
+}
+
+.home-intro .tagline::after {
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 120px;
+  height: 6px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, hsl(var(--ev-primary) / 100%), hsl(var(--ev-primary) / 60%));
+  opacity: .25;
+  content: '';
+}
+
+.home-intro .sub {
+  margin: 4px 0 14px;
+  color: var(--vp-c-text-2);
+}
+
+.home-intro .note {
+  margin-top: 10px;
+  color: var(--vp-c-text-3);
+  font-size: 13px;
+}
+
+.stat-cards {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  margin: 10px 0 14px;
+}
+
+.stat-cards .card {
+  position: relative;
+  display: grid;
+  align-items: center;
+  gap: 10px;
+  grid-template-columns: 1fr auto;
+  padding: 10px 12px 10px 14px;
+  border: 1px solid var(--vp-c-divider);
+  border-color: hsl(var(--acc) / 22%);
+  border-radius: 10px;
+  background:
+    linear-gradient(180deg, hsl(var(--acc) / 6%), transparent 60%),
+    var(--vp-c-bg-soft);
+  opacity: 0;
+  animation: fade-up .45s ease forwards;
+  transform: translateY(6px);
+
+  --acc: var(--ev-primary);
+}
+
+.stat-cards .card::before {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 4px;
+  border-radius: 10px 0 0 10px;
+  background: hsl(var(--acc) / 55%);
+  content: '';
+}
+
+.stat-cards .num {
+  color: var(--vp-c-text-1);
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.stat-cards .label {
+  color: var(--vp-c-text-3);
+  font-size: 12px;
+}
+
+.stat-cards .card:nth-child(1) {
+  animation-delay: .02s
+}
+
+.stat-cards .card:nth-child(2) {
+  animation-delay: .08s
+}
+
+.stat-cards .card:nth-child(3) {
+  animation-delay: .12s
+}
+
+.stat-cards .card:nth-child(4) {
+  animation-delay: .16s
+}
+
+.stat-cards .right {
+  display: flex;
+  align-items: center;
+}
+
+.checklist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 14px;
+}
+
+.checklist span {
+  padding: 6px 10px;
+  border: 1px dashed var(--vp-c-divider);
+  border-radius: 999px;
+  background: var(--vp-c-bg-soft);
+  color: var(--vp-c-text-2);
+  font-size: 13px;
+}
+
+.checklist span:nth-child(1),
+.checklist span:nth-child(2),
+.checklist span:nth-child(3),
+.checklist span:nth-child(4) {
+  border-color: hsl(var(--ev-primary) / 25%);
+  background: hsl(var(--ev-primary) / 7%);
+}
+
+.home-intro .cta-link {
+  color: var(--vp-c-brand-1);
+  text-decoration: underline;
+}
+
+.home-intro .cta-link:hover {
+  filter: saturate(1.1);
+  text-decoration: none;
+}
+
+/* Homepage mini preview grid removed */
+
+@keyframes fade-up {
+  to {
+    opacity: 1;
+    transform: none
+  }
+}
+
+/* Navbar logo sizing */
+.VPNavBar .title .logo,
+.VPNavBar .logo {
+  width: 36px !important;
+  height: 36px !important;
+  object-fit: contain;
+}
+
+/* Navbar site title typography */
+.VPNavBar .title .text,
+.VPNav .title .text,
+.VPNavBarTitle .title .text,
+.VPNavBar .site-name,
+.VPNavBarTitle .site-name {
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji" !important;
+  font-size: 21px !important;
+  font-weight: 600 !important;
+  line-height: 1.1 !important;
+}
+
+/* Ensure brand buttons use logo color */
+.VPButton.brand {
+  border-color: transparent !important;
+  background-color: hsl(var(--ev-primary)) !important;
+  color: #fff !important;
+}
+
+.VPButton.brand:hover {
+  background-color: hsl(var(--ev-primary-hover)) !important;
+}
+
+.VPButton.brand:active,
+.VPButton.brand:focus-visible {
+  background-color: hsl(var(--ev-primary-active)) !important;
+}
+
+/* Force link palette to brand across docs and sidebar */
+.VPDoc a {
+  color: var(--vp-c-brand-1);
+}
+
+.VPDoc a:hover {
+  color: hsl(var(--ev-primary) / 85%);
+}
+
+.VPSidebar a {
+  color: var(--vp-c-brand-1);
+}
+
+.VPSidebar a:hover {
+  color: hsl(var(--ev-primary) / 85%);
+}
+
+.VPSidebar .link.active,
+.VPSidebar .is-active > a,
+.VPSidebar .item.is-active > a {
+  color: var(--vp-c-brand-1) !important;
+}
+
+.VPNavBarMenuLink,
+.VPNavBarMenuLink.active {
+  color: var(--vp-c-brand-1) !important;
+}

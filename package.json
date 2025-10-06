@@ -17,13 +17,24 @@
   "homepage": "https://github.com/evora-ui/evora-icons#readme",
   "devDependencies": {
     "@changesets/cli": "^2.29.7",
+    "@stylistic/stylelint-plugin": "^4.0.0",
     "@typescript-eslint/eslint-plugin": "^8.38.0",
     "@typescript-eslint/parser": "^8.38.0",
+    "@vue/eslint-config-prettier": "^10.2.0",
+    "@vue/eslint-config-typescript": "^14.6.0",
     "eslint": "^9.32.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.3",
     "eslint-plugin-vue": "^10.3.0",
+    "postcss": "^8.5.6",
+    "postcss-html": "^1.8.0",
+    "postcss-scss": "^4.0.9",
     "prettier": "^3.6.2",
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard-scss": "^16.0.0",
+    "stylelint-order": "^7.0.0",
+    "stylelint-scss": "^6.12.1",
+    "stylelint-stylistic": "^0.4.5",
     "svgo": "^3.3.2",
     "typescript": "~5.9.2",
     "vue-eslint-parser": "^10.2.0"
@@ -35,7 +46,12 @@
     "clean": "yarn workspaces foreach -Av run clean",
     "lint:fix": "yarn workspaces foreach -Av run lint:fix",
     "lint": "eslint .",
+    "style:lint": "stylelint 'packages/**/.vitepress/theme/**/*.vue' 'packages/**/.vitepress/theme/**/*.css' 'packages/**/*.scss'",
+    "style:lint:fix": "stylelint 'packages/**/.vitepress/theme/**/*.vue' 'packages/**/.vitepress/theme/**/*.css' 'packages/**/*.scss' --fix",
     "postinstall": "node tools/generate-icons.mjs --pkg packages/vue || true",
-    "prepublishOnly": "yarn generate && yarn build && yarn types && yarn lint:fix"
+    "prepublishOnly": "yarn generate && yarn build && yarn types && yarn lint:fix",
+    "docs:dev": "yarn workspace @evora-ui/icons-docs dev",
+    "docs:build": "yarn workspace @evora-ui/icons-docs build",
+    "docs:preview": "yarn workspace @evora-ui/icons-docs preview"
   }
 }
