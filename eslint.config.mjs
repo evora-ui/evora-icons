@@ -1,4 +1,6 @@
 import { defineConfig } from "eslint/config";
+import { fileURLToPath } from "node:url";
+import path from "node:path";
 import eslintPluginPrettier from "eslint-plugin-prettier";
 import tsParser from "@typescript-eslint/parser";
 import tseslint from "@typescript-eslint/eslint-plugin";
@@ -30,6 +32,8 @@ export default defineConfig([
         parser: tsParser,
         ecmaVersion: "latest",
         sourceType: "module",
+        // Resolve tsconfig from repo root regardless of CWD
+        tsconfigRootDir: path.dirname(fileURLToPath(import.meta.url)),
         // Use a dedicated tsconfig for linting that includes all workspaces and Vue SFCs
         project: "./tsconfig.eslint.json",
         extraFileExtensions: [".vue"],
