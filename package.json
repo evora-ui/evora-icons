@@ -14,7 +14,7 @@
   "bugs": {
     "url": "https://github.com/evora-ui/evora-icons/issues"
   },
-  "homepage": "https://github.com/evora-ui/evora-icons#readme",
+  "homepage": "https://icons.evora.dev",
   "devDependencies": {
     "@changesets/cli": "^2.29.7",
     "@stylistic/stylelint-plugin": "^4.0.0",
