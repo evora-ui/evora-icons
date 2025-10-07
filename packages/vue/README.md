@@ -1,10 +1,24 @@
+<p align="center">
+  <a href="https://icons.evora.dev" target="_blank" rel="noopener">
+    <img src="https://icons.evora.dev/logo.svg" alt="Evora Icons" height="84" />
+  </a>
+</p>
+
 # @evora-ui/icons-vue
 
-Vue 3 icon components — 1500+ free icons in two variants: line and filled.
+[![Website](https://img.shields.io/badge/website-icons.evora.dev-2ea44f?logo=vercel&logoColor=white)](https://icons.evora.dev)
+[![Docs](https://img.shields.io/badge/docs-get%20started-0ea5e9?logo=readthedocs&logoColor=white)](https://icons.evora.dev/guide/getting-started)
+[![npm](https://img.shields.io/npm/v/%40evora-ui%2Ficons-vue.svg?logo=npm&label=%40evora-ui%2Ficons-vue)](https://www.npmjs.com/package/@evora-ui/icons-vue)
+[![CI](https://github.com/evora-ui/evora-icons/actions/workflows/ci.yml/badge.svg)](https://github.com/evora-ui/evora-icons/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/evora-ui/evora-icons/blob/main/LICENSE)
 
-- Tree‑shakable per‑icon imports
-- Typed names and props (great DX)
-- CSP/SSR‑friendly render modules
+Vue 3 icon components — 1500+ free SVG icons in line and filled variants. Open‑source, typed, tree‑shakable, SSR/CSP‑friendly.
+
+- Website: https://icons.evora.dev
+- Browse icons: https://icons.evora.dev/icons
+- Getting started: https://icons.evora.dev/guide/getting-started
+- Usage & API: https://icons.evora.dev/guide/usage
+- SSR & CSP: https://icons.evora.dev/guide/ssr
 
 ## Install
 
@@ -154,6 +168,14 @@ SSR notes:
 IDE hints (Volar):
 - Package includes global types for `<EvIcon>`, so tag and `name` autocompletion work out of the box.
 - It’s recommended to enable Take Over Mode in Volar and restart TS Server after installing/updating the package.
+
+## Links
+- Website: https://icons.evora.dev
+- Browse icons: https://icons.evora.dev/icons
+- Getting started: https://icons.evora.dev/guide/getting-started
+- Usage & API: https://icons.evora.dev/guide/usage
+- SSR & CSP: https://icons.evora.dev/guide/ssr
+- Changelog: https://github.com/evora-ui/evora-icons/blob/main/packages/vue/CHANGELOG.md
 
 ## Categories data
 - This package doesn’t ship categories JSON. If you work in this monorepo, generated categories live under the repo root `categories/`.
